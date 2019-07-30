@@ -27,6 +27,7 @@ def default():
         clean_xml = byte_to_string.replace("\r\n", "")
         tree = ET.ElementTree(ET.fromstring(clean_xml))
         get_data_xml(tree)
+        
     except:
         print('SUCCESS START UP')
 
@@ -41,6 +42,7 @@ def default():
     return resp
 
 #TODO: Need to separate csv files by Point rather than Address
+#TODO: Update for yaml config
 def get_data_xml(xmlTree):
     
     #Initialization of DataFrame
@@ -51,54 +53,87 @@ def get_data_xml(xmlTree):
     address = 0
     for d in root.iter('device'):
         address = d.find('address').text
+        
+    #String conversions for proper file naming convention
+    #This section assumes device address will never exceed 999
+    if int(address) < 10:
+        address = "00" + address
+    elif int(address) >= 10 and int(address) < 100:
+        address = "0" + address
 
     #How this works: We changed the XML file to a tree, then iterate through the child nodes with "record" as its tag
     for record in root.iter('record'):
         #Get the time of the record entry
         time = record.find('time').text
+        
+        #Getting Year/Month from time string
+        year = time[:4]
+        month = time[5:7]
+        
         #Iterate through all points within the record
         for child in record:
             #This is mainly to get the points, we can alter to specify other info like error messages
             if "value" in child.attrib:
+                #Below is for file naming convention, assuming points will not exceed 99
+                point = child.attrib['number']
+                if int(point) < 10:
+                    point = "0" + point
+                    
                 #Create a DataFrame with line of data (which is really a row right now) to append to main DataFrame
-                tbl = pd.DataFrame(data=[[address, child.attrib['number'], 
-                                          child.attrib['name'], child.attrib['value'],time]], 
+                tbl = pd.DataFrame(data=[[address, point, 
+                                          child.attrib['name'], child.attrib['value'], time]], 
                                    columns=["Address", "Point", "Name", "Value", "Time"])
                 #Appending to gbl_tbl
                 gbl_tbl = gbl_tbl.append(tbl, ignore_index=True)
-                #Checking for duplicates within the file and removing them if found
-                if os.path.isfile('data/' + address + '_data.csv'):
-                    existing = pd.read_csv('data/' + address + '_data.csv')
+                
+                #Checking for duplicates within the file and removing them if found, also appending new file to old
+                if os.path.isfile('data/acquisuite_' + address + "_" + point + "_" + year + "_" + month + '.csv'):
+                    existing = pd.read_csv('data/acquisuite_' + address + "_" + point + "_" + year + "_" + month + '.csv')
                     existing = existing.append(gbl_tbl)
                     existing = existing[~existing.duplicated()]
                     gbl_tbl = existing
+                
+                #Converts the DataFrame into a csv file
+                gbl_tbl.to_csv('data/acquisuite_' + address + "_" + point + "_" + year + "_" + month + '.csv', index=False)
                     
+    #Dropping NaN values in Value column
+    gbl_tbl = gbl_tbl.dropna(subset=['Value'])
+        
     #Converts the DataFrame into a csv file
-    gbl_tbl.to_csv('data/' + address + '_data.csv', index=False)
+    gbl_tbl.to_csv('data/acquisuite_' + address + '_data.csv', index=False)
     
     #Code snippet for getting raw xml file examples
     #xmlTree.write('raw_xml_data/' + address + "_raw.xml")
     return 'SUCCESS'
 
-@app.route('/get_data/<start>/')
+@app.route('/get_data')
 #start and end are times, and must be in the format YEAR-MONTH-DAY (ex: 2019-06-17)
 #NOTE: the csv files are formated as ADDRESS_data.csv (ex: 250_data.csv)
 #NUANCES: start and end must have their hour and smaller units separated by "_" (ex: 2019-06-17_02:55:00)
 def get_data(start, end='N/A'):
 
-    #Opens our config file, currently in yaml format
-    with open("config.yaml", 'r') as stream:
-        config = yaml.safe_load(stream)
+    start = request.args.get('start')
+    #TODO: check if we can only enter one parameter if have default
+    #end = request.args.get('end')
     
-    #Assigns config values to variables
-    address = config['address']
-    points = config['points']
-    custom = config['custom']
+    #Opens our config file, currently in yaml format
+    stream = file('config.yaml', 'r')
+    
+    #Initializing arrays 
+    address = np.array([])
+    points = np.array([])
     
     #Mapping points to custom for table output
-    mapping = dict(zip(points, custom))
+    custom_map = {}
     
+    #Running through all sub-documents in yaml
+    for data in yaml.load_all(stream):
+        address = np.append(address, data['address'])
+        points = np.append(points, data['points'][0])
+        custom_map[[data['address'], data['points'][0]]] = data['points'][1]
+                   
     #Starts reading and sorting our table
+    #TODO: Fix with different csv format! 
     table = pd.read_csv("data/" + str(address) + "_data.csv")
     table = table[table['Point'].isin(points)]
     
@@ -134,7 +169,8 @@ def get_data(start, end='N/A'):
     table = table.dropna(subset=['Value'])
     
     #Applying mapping
-    table['Custom'] = table['Point'].map(mapping)
+    custom = table.apply(lambda x: custom_map[[x["Address"], x["Point"]]], axis=1)
+    table['Custom'] = custom
     
     #Currently returns an html table to the webserver, will eventually need to configure to SkySpark
     return table.to_html(header="true", table_id="table")
