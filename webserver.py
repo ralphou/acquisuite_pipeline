@@ -93,14 +93,12 @@ def get_data_xml(xmlTree):
                     existing = existing[~existing.duplicated()]
                     gbl_tbl = existing
                 
+                #Dropping NaN values in Value column
+                gbl_tbl = gbl_tbl.dropna(subset=['Value'])
+                
                 #Converts the DataFrame into a csv file
                 gbl_tbl.to_csv('data/acquisuite_' + address + "_" + point + "_" + year + "_" + month + '.csv', index=False)
                     
-    #Dropping NaN values in Value column
-    gbl_tbl = gbl_tbl.dropna(subset=['Value'])
-        
-    #Converts the DataFrame into a csv file
-    gbl_tbl.to_csv('data/acquisuite_' + address + '_data.csv', index=False)
     
     #Code snippet for getting raw xml file examples
     #xmlTree.write('raw_xml_data/' + address + "_raw.xml")
