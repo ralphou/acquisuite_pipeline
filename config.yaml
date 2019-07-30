@@ -15,13 +15,12 @@ address: 28
 points:
     - 0, 34-CT Makeup
     - 5, 34-CT Blowdown
-
+---
 #B50A Gas meter, East side
 address: 41
 points:
     - 0, 50A-East-Gast
-
-
+---
 #50A Cooling towers
 address: 37
 points:
