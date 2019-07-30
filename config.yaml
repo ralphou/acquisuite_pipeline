@@ -1,6 +1,6 @@
 # B50-2124B Intern Office
 address: 250
-points: 
+points:
     - 0, 50A-2124B Wire1
     - 12, 50A-2124B Wire2
 ---
@@ -14,4 +14,18 @@ points:
 address: 28
 points:
     - 0, 34-CT Makeup
-    - 4, 34-CT Blowdown
+    - 5, 34-CT Blowdown
+
+#B50A Gas meter, East side
+address: 41
+points:
+    - 0, 50A-East-Gast
+
+
+#50A Cooling towers
+address: 37
+points:
+    - 0, 50A-CT-Drain
+    - 1, 50A-CT-Drain_rate
+    - 5, 50A-CT-4-Makeup
+    - 10, 50A-CT-5-Makeup
