@@ -108,6 +108,7 @@ def get_data_xml(xmlTree):
 #start and end are times, and must be in the format YEAR-MONTH-DAY (ex: 2019-06-17)
 #NOTE: the csv files are formated as ADDRESS_data.csv (ex: 250_data.csv)
 #NUANCES: start and end must have their hour and smaller units separated by "_" (ex: 2019-06-17_02:55:00)
+#TODO: FIX MAPPING AND YAML PLEASE
 def get_data(start, end='N/A'):
 
     start = request.args.get('start')
