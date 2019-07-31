@@ -15,13 +15,16 @@
 
 (point, start_date, end_date) => do
 
-  addr = point->modhopperDevAddr
-  pt = point->modhopperPointAddr
+  addr: point->modhopperDevAddr
+  pt: point->modhopperPointAddr
   
-  # I just made this part up.... coordinate with actual get_data function methods
-  his = ioRead(... however you read http... http://fmcs-svc-mgr.lbl.gov/get_data?addr&pt&start_date&end_date )
+  link: "http://fmcs-svc-mgr.lbl.gov/get_data?" + addr + "&" + pt + "&" + start_date + "&" + end_date
+  his: ioReadCsv(`` +  link)
 
   # check data
-  
+  his.each reading => do
+    reading->Value
+    
+
   # write his
 end
