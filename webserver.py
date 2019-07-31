@@ -73,7 +73,7 @@ def get_data_xml(xmlTree):
         #Iterate through all points within the record
         for child in record:
             #This is mainly to get the points, we can alter to specify other info like error messages
-            if "value" in child.attrib:
+            if "value" in child.attrib and child.attrib['value'] != "NULL":
                 #Below is for file naming convention, assuming points will not exceed 99
                 point = child.attrib['number']
                 if int(point) < 10:
@@ -83,21 +83,26 @@ def get_data_xml(xmlTree):
                 tbl = pd.DataFrame(data=[[address, point, 
                                           child.attrib['name'], child.attrib['value'], time]], 
                                    columns=["Address", "Point", "Name", "Value", "Time"])
+                
                 #Appending to gbl_tbl
                 gbl_tbl = gbl_tbl.append(tbl, ignore_index=True)
                 
                 #Checking for duplicates within the file and removing them if found, also appending new file to old
                 if os.path.isfile('data/acquisuite_m' + address + "_p" + point + "_" + year + "_" + month + '.csv'):
-                    existing = pd.read_csv('data/acquisuite_' + address + "_" + point + "_" + year + "_" + month + '.csv')
+                    existing = pd.read_csv('data/acquisuite_m' + address + "_p" + point + "_" + year + "_" + month + '.csv', 
+                                           dtype={"Address": str, "Point": str})
                     existing = existing.append(gbl_tbl)
                     existing = existing[~existing.duplicated()]
                     gbl_tbl = existing
                 
                 #Dropping NaN values in Value column
-                gbl_tbl = gbl_tbl.dropna(subset=['Value'])
+                #gbl_tbl = gbl_tbl.dropna(subset=['Value'])
                 
                 #Converts the DataFrame into a csv file
                 gbl_tbl.to_csv('data/acquisuite_m' + address + "_p" + point + "_" + year + "_" + month + '.csv', index=False)
+                
+                #Reset gbl_tbl
+                gbl_tbl = pd.DataFrame(columns=["Address", "Point", "Name", "Value", "Time"])
                     
     
     #Code snippet for getting raw xml file examples
@@ -130,9 +135,12 @@ def get_data(start, end='N/A'):
         address = np.append(address, data['address'])
         points = np.append(points, data['points'][0])
         custom_map[[data['address'], data['points'][0]]] = data['points'][1]
+        
+        'data/acquisuite_m' + address + "_p" + point + "_" + year + "_" + month + '.csv'
                    
     #Starts reading and sorting our table
-    #TODO: Fix with different csv format! 
+    #TODO: Fix with different csv format!
+    
     table = pd.read_csv("data/" + str(address) + "_data.csv")
     table = table[table['Point'].isin(points)]
     
