@@ -87,7 +87,7 @@ def get_data_xml(xmlTree):
                 gbl_tbl = gbl_tbl.append(tbl, ignore_index=True)
                 
                 #Checking for duplicates within the file and removing them if found, also appending new file to old
-                if os.path.isfile('data/acquisuite_' + address + "_" + point + "_" + year + "_" + month + '.csv'):
+                if os.path.isfile('data/acquisuite_m' + address + "_p" + point + "_" + year + "_" + month + '.csv'):
                     existing = pd.read_csv('data/acquisuite_' + address + "_" + point + "_" + year + "_" + month + '.csv')
                     existing = existing.append(gbl_tbl)
                     existing = existing[~existing.duplicated()]
@@ -97,7 +97,7 @@ def get_data_xml(xmlTree):
                 gbl_tbl = gbl_tbl.dropna(subset=['Value'])
                 
                 #Converts the DataFrame into a csv file
-                gbl_tbl.to_csv('data/acquisuite_' + address + "_" + point + "_" + year + "_" + month + '.csv', index=False)
+                gbl_tbl.to_csv('data/acquisuite_m' + address + "_p" + point + "_" + year + "_" + month + '.csv', index=False)
                     
     
     #Code snippet for getting raw xml file examples
@@ -180,8 +180,9 @@ if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
     
     
-    
-    
+#Additional routes to retreive debugging info or something, some logging route
+#Look into logging import in Python
+#Look into gzip (gz) for compression
     
     
     
