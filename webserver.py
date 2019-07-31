@@ -23,14 +23,14 @@ def default():
     print("FORM: ", request.form)
     
     #This block takes the request.data, which is encoded in bytes, and decodes it to a string and cleans it. We then make it an XML tree.
-    try: 
+    #NOTE: When debugging, remove the try-except block! 
+    try:
         byte_to_string = request.data.decode("utf-8")
         clean_xml = byte_to_string.replace("\r\n", "")
         tree = ET.ElementTree(ET.fromstring(clean_xml))
         get_data_xml(tree)
-        
     except:
-        print('SUCCESS START UP')
+        print("START UP")
 
     #This section is important in response to the AcquiSuite response. This XML response is the only way to 
     #properly respond to the AcquiSuite in which it will receive a "SUCCESS" indicator and delete backlogged files.
@@ -43,9 +43,7 @@ def default():
     return resp
 
 #TODO: Need to separate csv files by Point rather than Address
-#TODO: Update for yaml config
 def get_data_xml(xmlTree):
-    
     #Initialization of DataFrame
     gbl_tbl = pd.DataFrame(columns=["Address", "Point", "Name", "Value", "Time"])
     
@@ -58,43 +56,39 @@ def get_data_xml(xmlTree):
     #Mapping points to custom for table output
     custom_map = {}
     
-    #Opens our config file, currently in yaml format
-    stream = open('config.yaml', 'r')
-    
     #Running through all sub-documents in yaml and getting what we need
-    for data in yaml.load_all(stream):
+    for data in yaml.load_all(open('config.yaml', 'r'), Loader=yaml.FullLoader):
         #Mapping through a dictionary with tuples as keys
-        address = data['address']
+        add = data['address']
         points = data['points']
 
-        #yaml regex alterations, mapping with
-        for point in points:
-            regexed = re.findall('[0-9]+,', point)[0]
-            custom = point.replace(regexed + ' ', "")
+        #yaml regex alterations, mapping with tuples
+        for p in points:
+            regexed = re.findall('[0-9]+,', p)[0]
+            entered = p.replace(regexed + ' ', "")
             point = int(regexed.replace(',', ""))
-            custom_map[(address, point)] = custom
+            custom_map[(add, point)] = entered
         
     #String conversions for proper file naming convention
     #This section assumes device address will never exceed 999
     if int(address) < 10:
-        address = "00" + address
+        address = "00" + str(address)
     elif int(address) >= 10 and int(address) < 100:
-        address = "0" + address
+        address = "0" + str(address)
 
     #How this works: We changed the XML file to a tree, then iterate through the child nodes with "record" as its tag
     for record in root.iter('record'):
+        #Get the time of the record entry
+        time = record.find('time').text
+
+        #Getting Year/Month from time string
+        year = time[:4]
+        month = time[5:7]
         #Iterate through all points within the record
         for child in record:
             #This is mainly to get the points, we can alter to specify other info like error messages
             if "value" in child.attrib and child.attrib['value'] != "NULL":
                 if custom_map.get((int(address), int(child.attrib['number'])), 'null') != 'null':
-                    #Get the time of the record entry
-                    time = record.find('time').text
-
-                    #Getting Year/Month from time string
-                    year = time[:4]
-                    month = time[5:7]
-                    
                     #Below is for file naming convention, assuming points will not exceed 99
                     point = child.attrib['number']
                     if int(point) < 10:
@@ -112,9 +106,9 @@ def get_data_xml(xmlTree):
                     #gbl_tbl = gbl_tbl.dropna(subset=['Value'])
 
                     #Applying mapping
-                    custom = gbl_tbl.apply(lambda x: custom_map[[x["Address"], x["Point"]]], axis=1)
+                    custom = gbl_tbl.apply(lambda x: custom_map[(int(x["Address"]), int(x["Point"]))], axis=1)
                     gbl_tbl['Custom'] = custom
-                    
+
                     #Checking for duplicates within the file and removing them if found, also appending new file to old
                     if os.path.isfile('data/acquisuite_m' + address + "_p" + point + "_" + year + "_" + month + '.csv'):
                         existing = pd.read_csv('data/acquisuite_m' + address + "_p" + point + "_" + year + "_" + month + '.csv', 
@@ -122,7 +116,7 @@ def get_data_xml(xmlTree):
                         existing = existing.append(gbl_tbl)
                         existing = existing[~existing.duplicated()]
                         gbl_tbl = existing
-                    
+
                     #Converts the DataFrame into a csv file
                     gbl_tbl.to_csv('data/acquisuite_m' + address + "_p" + point + "_" + year + "_" + month + '.csv', index=False)
 
@@ -160,37 +154,24 @@ def get_data(start, end='N/A'):
     except:
         return "Wrong format! Look at comments in webserver.py for an example!"
     
-    #Initializing arrays 
-    address = np.array([])
-    points = np.array([])
-    
-    #Mapping points to custom for table output
-    custom_map = {}
-    
     #Initializing global table
     gbl_tbl = pd.DataFrame(columns=["Address", "Point", "Name", "Value", "Time"])
     
     #Opens our config file, currently in yaml format
     stream = file('config.yaml', 'r')
-    
-    #Running through all sub-documents in yaml and getting what we need
-    for data in yaml.load_all(stream):
-        address = np.append(address, data['address'])
-        points = np.append(points, data['points'][0])
-        custom_map[[data['address'], data['points'][0]]] = data['points'][1]
         
-        #Getting Year/Month from time string
-        start_year = time[:4]
-        start_month = time[5:7]
-        
-        #Increasing start date by a month each time to get all values until current year-month
-        counter_date = start
-        while (counter_date < end):
-            his = pd.read_csv('data/acquisuite_m' + data['address'] + "_p" + data['points'][0] + "_" + \
-                              counter_date.year + "_" + counter_date.month + '.csv', 
-                              dtype={"Address": str, "Point": str})
-            gbl_tbl = gbl_tbl.append(his)
-            counter_date = datetime(counter_date.year + int(counter_date.month / 12), ((counter_date.month % 12) + 1), counter_date.day)
+    #Getting Year/Month from time string
+    start_year = time[:4]
+    start_month = time[5:7]
+
+    #Increasing start date by a month each time to get all values until current year-month
+    counter_date = start
+    while (counter_date < end):
+        his = pd.read_csv('data/acquisuite_m' + data['address'] + "_p" + data['points'][0] + "_" + \
+                          counter_date.year + "_" + counter_date.month + '.csv', 
+                          dtype={"Address": str, "Point": str})
+        gbl_tbl = gbl_tbl.append(his)
+        counter_date = datetime(counter_date.year + int(counter_date.month / 12), ((counter_date.month % 12) + 1), counter_date.day)
                    
     #Start sorting our data
     #TODO: Fix with different csv format
@@ -201,19 +182,6 @@ def get_data(start, end='N/A'):
     
     #Filtering now by time
     gbl_tbl = gbl_tbl[(table['Time'] >= start) & (table['Time'] <= end)]
-    
-    #This block is if end=datetime.now() conversion does not work
-#     #Options for entering an end value or not
-#     if end == 'N/A':
-#         try:
-#             start = start.replace("_", " ")
-#             start = datetime.strptime(start, '%Y-%m-%d %H:%M:%S')
-            
-#             #Filtering now by time
-#             table = table[(table['Time'] >= start)]
-#         except:
-#             return "Wrong format! Look at comments in webserver.py for an example!"
-#     else:
     
     #Dropping NaN values in Value column
     table = table.dropna(subset=['Value'])
