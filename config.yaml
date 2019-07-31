@@ -4,58 +4,117 @@ points:
     - 0, 50A-2124B Wire1
     - 12, 50A-2124B Wire2
 ---
-# B37 CT
-address: 22
+# Repeater
+address: 25
 points:
-    - 0, 37-CT Makeup
-    - 4, 37-CT Blowdown
 ---
-# B34 CT
+# B72 TRW
 address: 28
 points:
-    - 0, 34-CT Makeup
-    - 5, 34-CT Blowdown
+    - 0, 72 TRW Water Meter
 ---
-# 50A-CT-5 & 6 Makeup
+# Repeater
+address: 29
+points:
+---
+# Repeater
+address: 30
+points:
+---
+# B34 CT
+address: 31
+points:
+    - 0, Shasta Water Meter
+---
+# Repeater
+address: 32
+points:
+---
+# 50A-CT Makeup
 address: 33
 points:
-- 0, 50A CT5 Makeup
-- 5, 50A CT6 Makeup
-
+    - 0, 50A CT-5 Makeup
+    - 5, 50A CT-6 Makeup
 ---
-# 50B Cooling towers
+# B71 CT
+address: 34
+points:
+    - 0, 71 CT-4 Makeup
+    - 5, 71 CT-4 Blowdown
+---
+# Repeater
+address: 36
+points:
+---
+# 50B CT
 address: 37
 points:
-    - 0, 50B-CT-Drain
-    - 1, 50B-CT-Drain_rate
-    - 5, 50B-CT-4-Makeup
-    - 10, 50B-CT-5-Makeup
-    - 15, 50B-CT Makeup From B50
-    - 20, Input 5
-    - 25, Input 6
-    - 30, Input 7
-    - 35, Input 8
-    - 40, Output 01
-    - 41, Output 02
-
+    - 0, 50B CT-4-5 Drain Flow
+    - 5, 50B CT-4 Makeup
+    - 10, 50B CT-5 Makeup
+    - 15, 50B CT-4-5 Makeup From B50
+---
+# B62 CT
+address: 38
+points:
+    - 0, 62 CT-1-2 Makeup
+    - 5, 62 CT-1-2 Blowdown
+---
+# B62 Gas
+address: 39
+points:
+    - 0, 62 Gas
+---
+# B34 CT
+address: 40
+points:
+    - 0, 34 CT-1 Makeup
+    - 5, 34 CT-2 Makeup
 ---
 # B50A Gas meter, East side
 address: 41
 points:
     - 0, 50A-East-Gas
-
+---
+# B50A Gas meter, West side
+address: 42
+points:
+    - 0, 50A-West-Gas
+---
+# B70 & 70A Gas
+address: 43
+points:
+    - 0, 70A Gas
+    - 5, 70 Gas
+---
+# B71 Gas
+address: 44
+points:
+    - 0, 71 Gas
 ---
 # B33 Gas Meter
 address: 45
 points:
-    - 0, Pulse #1
-    - 5, Pulse #5
-
+    - 0, 33 Gas
+---
+# B88 Gas
+address: 48
+points:
+    - 0, 88 Gas
 ---
 # B88 CT
 address: 49
 points:
-    - 0, Pulse #1
-    - 5, Pulse #2
-
+    - 0, 88 CT-2 Makeup
+    - 5, 88 CT-2 Blowdown
+---
+# B76 Gas
+address: 50
+points:
+    - 0, 76 Gas
+---
+# B66 Gas
+address: 51
+points:
+    - 0, 66 Gas
 ---
