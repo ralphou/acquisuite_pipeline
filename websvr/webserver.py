@@ -182,7 +182,7 @@ def get_data():
             if counter_date.month < 10:
                 month = "0" + str(counter_date.month)
                 
-            if os.path.isfile('data/acquisuite_m' + address + "_p" + point + "_" + str(counter_date.year) + "_" + month + '.csv':     
+            if os.path.isfile('data/acquisuite_m' + address + "_p" + point + "_" + str(counter_date.year) + "_" + month + '.csv'):     
                 #Reading csv files by month
                 his = pd.read_csv('data/acquisuite_m' + address + "_p" + point + "_" + \
                                   str(counter_date.year) + "_" + month + '.csv', 
