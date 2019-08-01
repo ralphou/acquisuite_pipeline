@@ -181,14 +181,15 @@ def get_data():
             #Time to string conversions
             if counter_date.month < 10:
                 month = "0" + str(counter_date.month)
+                
+            if os.path.isfile('data/acquisuite_m' + address + "_p" + point + "_" + str(counter_date.year) + "_" + month + '.csv':     
+                #Reading csv files by month
+                his = pd.read_csv('data/acquisuite_m' + address + "_p" + point + "_" + \
+                                  str(counter_date.year) + "_" + month + '.csv', 
+                                  dtype={"Address": str, "Point": str})
             
-            #Reading csv files by month
-            his = pd.read_csv('data/acquisuite_m' + address + "_p" + point + "_" + \
-                              str(counter_date.year) + "_" + month + '.csv', 
-                              dtype={"Address": str, "Point": str})
-            
-            #Appending data
-            gbl_tbl = gbl_tbl.append(his)
+                #Appending data
+                gbl_tbl = gbl_tbl.append(his)
             
             #Incrementing counter
             counter_date = datetime(counter_date.year + int(counter_date.month / 12), ((counter_date.month % 12) + 1), counter_date.day)
