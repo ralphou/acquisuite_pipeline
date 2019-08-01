@@ -200,6 +200,7 @@ def get_data():
     gbl_tbl = gbl_tbl[(gbl_tbl['Time'] >= start) & (gbl_tbl['Time'] <= end)]
     
     #Currently returns an html table to the webserver, will eventually need to configure to SkySpark
+    #TODO: REMEMBER TO CONVERT TO CSV IF PUSHING TO SKYSPARK, CURRENTLY ONLY FOR VISUALS
     return gbl_tbl.to_html(header="true", table_id="table")
 
     #EXAMPLE URL: http://localhost:8080/get_data?address=37&point=0&start=2019-07-31_23:18:01&end=2019-07-31_23:23:01
