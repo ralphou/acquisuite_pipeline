@@ -1,3 +1,5 @@
+#Instructions: address and points are specified to mean what you want to store within your local machine
+#Note that we don't want a "---" at the end of this file, that would indicate an empty document
 # B50-2124B Intern Office
 address: 250
 points:

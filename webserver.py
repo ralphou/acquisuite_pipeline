@@ -128,19 +128,33 @@ def get_data_xml(xmlTree):
     #xmlTree.write('raw_xml_data/' + address + "_raw.xml")
     return 'SUCCESS'
 
-@app.route('/get_data')
+@app.route('/get_data', methods=['GET'])
 #start and end are times, and must be in the format YEAR-MONTH-DAY (ex: 2019-06-17)
 #NOTE: the csv files are formated as ADDRESS_data.csv (ex: 250_data.csv)
 #NUANCES: start and end must have their hour and smaller units separated by "_" (ex: 2019-06-17_02:55:00)
 #TODO: FIX MAPPING AND YAML PLEASE
-def get_data(start, end='N/A'):
+def get_data():
 
+    #Gathering initial parameters
+    address = request.args.get('address')
+    point = request.args.get('point')
     start = request.args.get('start')
+    end = request.args.get('end')
     #TODO: check if we can only enter one parameter if have default
     #end = request.args.get('end')
     
+    #This section assumes device address will never exceed 999
+    if int(address) < 10:
+        address = "00" + str(address)
+    elif int(address) >= 10 and int(address) < 100:
+        address = "0" + str(address)
+
+    #Assuming point will not exceed 99
+    if int(point) < 10:
+        point = "0" + point
+        
     #Default value for end is current time
-    if end == 'N/A':
+    if end == 'now':
         end = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     
     #Changes user string input for start/end to datetime format
@@ -156,44 +170,40 @@ def get_data(start, end='N/A'):
     
     #Initializing global table
     gbl_tbl = pd.DataFrame(columns=["Address", "Point", "Name", "Value", "Time"])
-    
-    #Opens our config file, currently in yaml format
-    stream = file('config.yaml', 'r')
-        
-    #Getting Year/Month from time string
-    start_year = time[:4]
-    start_month = time[5:7]
 
     #Increasing start date by a month each time to get all values until current year-month
+    #Note that this block of code only matters if start and end time difference exceeds a month
     counter_date = start
     while (counter_date < end):
-        his = pd.read_csv('data/acquisuite_m' + data['address'] + "_p" + data['points'][0] + "_" + \
-                          counter_date.year + "_" + counter_date.month + '.csv', 
-                          dtype={"Address": str, "Point": str})
-        gbl_tbl = gbl_tbl.append(his)
-        counter_date = datetime(counter_date.year + int(counter_date.month / 12), ((counter_date.month % 12) + 1), counter_date.day)
-                   
-    #Start sorting our data
-    #TODO: Fix with different csv format
-    gbl_tbl = gbl_tbl[gbl_tbl['Point'].isin(points)]
+        try:
+            #Time to string conversions
+            if counter_date.month < 10:
+                month = "0" + str(counter_date.month)
+            
+            #Reading csv files by month
+            his = pd.read_csv('data/acquisuite_m' + address + "_p" + point + "_" + \
+                              str(counter_date.year) + "_" + month + '.csv', 
+                              dtype={"Address": str, "Point": str})
+            
+            #Appending data
+            gbl_tbl = gbl_tbl.append(his)
+            
+            #Incrementing counter
+            counter_date = datetime(counter_date.year + int(counter_date.month / 12), ((counter_date.month % 12) + 1), counter_date.day)
+        except:
+            return "No file with this address and/or point. Please look at the data folder for available files."
     
     #Applies datetime conversion to time column in DataFrame
     gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
     
     #Filtering now by time
-    gbl_tbl = gbl_tbl[(table['Time'] >= start) & (table['Time'] <= end)]
-    
-    #Dropping NaN values in Value column
-    table = table.dropna(subset=['Value'])
-    
-    #Applying mapping
-    custom = table.apply(lambda x: custom_map[[x["Address"], x["Point"]]], axis=1)
-    gbl_tbl['Custom'] = custom
+    gbl_tbl = gbl_tbl[(gbl_tbl['Time'] >= start) & (gbl_tbl['Time'] <= end)]
     
     #Currently returns an html table to the webserver, will eventually need to configure to SkySpark
-    return table.to_html(header="true", table_id="table")
+    return gbl_tbl.to_html(header="true", table_id="table")
 
-    #EXAMPLE URL: http://localhost:8080/get_data/2019-07-25_18:14:00/
+    #EXAMPLE URL: http://localhost:8080/get_data?address=37&point=0&start=2019-07-31_23:18:01&end=2019-07-31_23:23:01
+    #EXAMPLE URL: http://localhost:8080/get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
