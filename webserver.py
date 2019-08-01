@@ -62,12 +62,14 @@ def get_data_xml(xmlTree):
         add = data['address']
         points = data['points']
 
-        #yaml regex alterations, mapping with tuples
-        for p in points:
-            regexed = re.findall('[0-9]+,', p)[0]
-            entered = p.replace(regexed + ' ', "")
-            point = int(regexed.replace(',', ""))
-            custom_map[(add, point)] = entered
+        #Edge case where config points are empty
+        if points:       
+            #yaml regex alterations, mapping with tuples
+            for p in points:
+                regexed = re.findall('[0-9]+,', p)[0]
+                entered = p.replace(regexed + ' ', "")
+                point = int(regexed.replace(',', ""))
+                custom_map[(add, point)] = entered
         
     #String conversions for proper file naming convention
     #This section assumes device address will never exceed 999
