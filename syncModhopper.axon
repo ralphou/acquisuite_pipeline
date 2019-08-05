@@ -13,18 +13,39 @@
   // LBNL // JS // Last Update: 2019-07-29 //
 */
 
-(point, start_date, end_date) => do
+(point, start_date, end_date="now") => do
 
   addr: point->modhopperDevAddr
   pt: point->modhopperPointAddr
   
-  link: "http://fmcs-svc-mgr.lbl.gov/get_data?" + addr + "&" + pt + "&" + start_date + "&" + end_date
-  his: ioReadCsv(`` +  link)
+  // find point
+  id: read(locationRef==@p:lbnl:r:22c0a4f3-5ef815e and equipRef==@p:lbnl:r:239c2df6-df69fec7 and his and point and raw and accumulator and modhopperDevAddr==addr and modhopperPointAddr==pt)->id
+  
+ // get data from webserver
+  link: "http://fmcs-svc-mgr.lbl.gov/get_data?address=" + addr + "&point=" + pt + "&start=" + start_date + "_00:00:00&end=" + end_date
+  his: ioReadCsv(`` +  link) 
 
-  # check data
+  // check last backfilled timestamp
+  last_reading: readById(id)->hisEnd
+
+  // if the start date asked for is earlier than the last reading inputted into skyspark
+  if (start_date<=last_reading) do
+    // rewrite past data?
+    // call function recursively with last reading as start date
+    end
+
+  // if the start date asked for is later than or equal to the last reading inputted into skyspark - may not need this if statement-> just run no matter what
+  if (start_date>=last_reading) do
+    //append new information to the his
+    end
+
+  list: []
   his.each reading => do
-    reading->Value
-    
+    time: reading->time
+    value: reading->value
+    list = add(list, {ts: time, val: value})
+    end
 
-  # write his
+  // write his
+  hisWrite(list, readById(id))
 end
