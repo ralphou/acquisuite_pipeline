@@ -10,42 +10,34 @@
   start_date        dateTime for beginning of sliding window
   end_date          dateTime for ending of sliding window
   
-  // LBNL // JS // Last Update: 2019-07-29 //
+  // LBNL // JS // Last Update: 2019-08-07 //
 */
 
-(point, start_date, end_date="now") => do
+(point, start_datetime, end_datetime) => do
 
   addr: point->modhopperDevAddr
   pt: point->modhopperPointAddr
+  id: point->id
+
+  datetime_string = toStr(start_datetime)
+  date_string = split(datetime_string, "T")[0]
+  time_string = split(split(datetime_string, "T")[1], "-")[0]
   
-  // find point
-  id: read(locationRef==@p:lbnl:r:22c0a4f3-5ef815e and equipRef==@p:lbnl:r:239c2df6-df69fec7 and his and point and raw and accumulator and modhopperDevAddr==addr and modhopperPointAddr==pt)->id
-  
- // get data from webserver
-  link: "http://fmcs-svc-mgr.lbl.gov/get_data?address=" + addr + "&point=" + pt + "&start=" + start_date + "_00:00:00&end=" + end_date
+  date_string: "2019-09-01"
+  time_string: "21:00:00"
+
+  link: "http://fmcs-svc-mgr.lbl.gov/get_data?address=" + toStr(addr) + "&point=" + toStr(pt) + "&start=" + date_string + "_" + time_string + "&end=" + end_datetime
   his: ioReadCsv(`` +  link) 
-
-  // check last backfilled timestamp
-  last_reading: readById(id)->hisEnd
-
-  // if the start date asked for is earlier than the last reading inputted into skyspark
-  if (start_date<=last_reading) do
-    // rewrite past data?
-    // call function recursively with last reading as start date
-    end
-
-  // if the start date asked for is later than or equal to the last reading inputted into skyspark - may not need this if statement-> just run no matter what
-  if (start_date>=last_reading) do
-    //append new information to the his
-    end
 
   list: []
   his.each reading => do
-    time: reading->time
+    time: tparseDateTime(reading->time, pattern: "YYYY-MM-DD hh:mm:ss")
     value: reading->value
     list = add(list, {ts: time, val: value})
     end
 
+  return list
   // write his
-  hisWrite(list, readById(id))
+  // hisWrite(list, point)
 end
+

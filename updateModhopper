@@ -1,0 +1,16 @@
+/*
+  Checks the last backfilled timestamp, and syncs data starting from that last backfilled timestamp to the time currently.
+  
+  Arguments: 
+  point             point with a modhopperDevAddr and modhopperPointAddr
+  
+  // LBNL // JS // Last Update: 2019-08-07 //
+*/
+
+(point) => do
+  id: point->id  
+  last_reading: readById(id)->hisEnd
+  syncModhopper(point, last_reading, now)
+
+  end
+
