@@ -4,11 +4,13 @@ from xml.etree.ElementTree import ElementTree
 import pandas as pd
 import numpy as np
 import yaml
+import logging
 from pathlib import Path
 from datetime import datetime
 from flask import Flask, flash, request, redirect, url_for, make_response
 import re
 
+logging.basicConfig(filename="web.log", level=logging.DEBUG, format='%(asctime)s:%(levelname)s:%(message)s')
 #BIG NOTE: PLEASE TURN OFF FIREWALL TO HAVE ACQUISUITE WORK! Need to figure out a protocol to allow AcquiSuite. 
                   
 app = Flask(__name__)
@@ -31,6 +33,7 @@ def default():
         get_data_xml(tree)
     except:
         print("START UP")
+        logging.debug("STARTING UP WEBSERVER")
 
     #This section is important in response to the AcquiSuite response. This XML response is the only way to 
     #properly respond to the AcquiSuite in which it will receive a "SUCCESS" indicator and delete backlogged files.
@@ -42,7 +45,6 @@ def default():
     resp.headers['Content-Type'] = 'text/xml'
     return resp
 
-#TODO: Need to separate csv files by Point rather than Address
 def get_data_xml(xmlTree):
     #Initialization of DataFrame
     gbl_tbl = pd.DataFrame(columns=["Address", "Point", "Name", "Value", "Time"])
@@ -132,9 +134,7 @@ def get_data_xml(xmlTree):
 
 @app.route('/get_data', methods=['GET'])
 #start and end are times, and must be in the format YEAR-MONTH-DAY (ex: 2019-06-17)
-#NOTE: the csv files are formated as ADDRESS_data.csv (ex: 250_data.csv)
 #NUANCES: start and end must have their hour and smaller units separated by "_" (ex: 2019-06-17_02:55:00)
-#TODO: FIX MAPPING AND YAML PLEASE
 def get_data():
 
     #Gathering initial parameters
@@ -142,8 +142,6 @@ def get_data():
     point = request.args.get('point')
     start = request.args.get('start')
     end = request.args.get('end')
-    #TODO: check if we can only enter one parameter if have default
-    #end = request.args.get('end')
     
     #This section assumes device address will never exceed 999
     if int(address) < 10:
@@ -168,6 +166,7 @@ def get_data():
         start = datetime.strptime(start, '%Y-%m-%d %H:%M:%S')
         end = datetime.strptime(end, '%Y-%m-%d %H:%M:%S')
     except:
+        logging.debug('Wrong datetime format entered in URL argument.')
         return "Wrong format! Look at comments in webserver.py for an example!"
     
     #Initializing global table
@@ -181,19 +180,19 @@ def get_data():
             #Time to string conversions
             if counter_date.month < 10:
                 month = "0" + str(counter_date.month)
-                
-            if os.path.isfile('data/acquisuite_m' + address + "_p" + point + "_" + str(counter_date.year) + "_" + month + '.csv'):     
-                #Reading csv files by month
-                his = pd.read_csv('data/acquisuite_m' + address + "_p" + point + "_" + \
-                                  str(counter_date.year) + "_" + month + '.csv', 
-                                  dtype={"Address": str, "Point": str})
-            
-                #Appending data
-                gbl_tbl = gbl_tbl.append(his)
+                  
+            #Reading csv files by month
+            his = pd.read_csv('data/acquisuite_m' + address + "_p" + point + "_" + \
+                              str(counter_date.year) + "_" + month + '.csv', 
+                              dtype={"Address": str, "Point": str})
+            return his
+            #Appending data
+            gbl_tbl = gbl_tbl.append(his)
             
             #Incrementing counter
             counter_date = datetime(counter_date.year + int(counter_date.month / 12), ((counter_date.month % 12) + 1), counter_date.day)
         except:
+            logging.debug("No file with requested address and point combination.")
             return "No file with this address and/or point. Please look at the data folder for available files."
     
     #Applies datetime conversion to time column in DataFrame
@@ -202,8 +201,6 @@ def get_data():
     #Filtering now by time
     gbl_tbl = gbl_tbl[(gbl_tbl['Time'] >= start) & (gbl_tbl['Time'] <= end)]
     
-    #Currently returns an html table to the webserver, will eventually need to configure to SkySpark
-    #TODO: REMEMBER TO CONVERT TO CSV IF PUSHING TO SKYSPARK, CURRENTLY ONLY FOR VISUALS
     #return gbl_tbl.to_html(header="true", table_id="table")
     return gbl_tbl.to_csv(index=False)
 
@@ -211,7 +208,7 @@ def get_data():
     #EXAMPLE URL: http://localhost:8080/get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8080)
+    app.run(host="0.0.0.0", port=80)
     
     
 #Additional routes to retreive debugging info or something, some logging route

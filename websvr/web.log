@@ -1,0 +1,19 @@
+2019-08-07 11:29:20,657:INFO: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-08-07 11:29:26,144:DEBUG:STARTING UP WEBSERVER
+2019-08-07 11:29:26,145:INFO:127.0.0.1 - - [07/Aug/2019 11:29:26] "GET / HTTP/1.1" 200 -
+2019-08-07 11:29:26,402:INFO:127.0.0.1 - - [07/Aug/2019 11:29:26] "GET /favicon.ico HTTP/1.1" 404 -
+2019-08-07 11:29:54,548:INFO:127.0.0.1 - - [07/Aug/2019 11:29:54] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-07 11:30:08,748:INFO:127.0.0.1 - - [07/Aug/2019 11:30:08] "GET /get_data?address=0&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-07 11:33:01,481:INFO:127.0.0.1 - - [07/Aug/2019 11:33:01] "GET /get_data?address=0&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-07 11:34:54,110:INFO:127.0.0.1 - - [07/Aug/2019 11:34:54] "GET /get_data?address=22&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-07 11:40:32,173:INFO: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-08-07 11:40:35,812:DEBUG:Wrong datetime format entered in URL argument.
+2019-08-07 11:40:35,813:INFO:127.0.0.1 - - [07/Aug/2019 11:40:35] "GET /get_data?address=22&point=0&start=2019-07-31-23:18:01&end=now HTTP/1.1" 200 -
+2019-08-07 11:40:42,350:INFO:127.0.0.1 - - [07/Aug/2019 11:40:42] "GET /get_data?address=22&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-07 11:41:38,226:INFO: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-08-07 11:41:41,497:INFO:127.0.0.1 - - [07/Aug/2019 11:41:41] "GET /get_data?address=22&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-07 11:43:52,989:INFO: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-08-07 11:43:54,953:INFO:127.0.0.1 - - [07/Aug/2019 11:43:54] "GET /get_data?address=22&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-07 11:47:18,311:INFO: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-08-07 11:47:24,124:DEBUG:No file with requested address and point combination.
+2019-08-07 11:47:24,125:INFO:127.0.0.1 - - [07/Aug/2019 11:47:24] "GET /get_data?address=22&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
