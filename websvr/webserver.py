@@ -183,7 +183,7 @@ def get_data():
     end_month = int(end.strftime("%m"))
     
     #Datetime iteration until endtime
-    while (counter_year <= end_year and counter_month <= end_month):
+    while (counter_year < end_year or counter_month <= end_month):
         #Time to string conversions
         if counter_date.month < 10:
             month = "0" + str(counter_date.month)
@@ -197,7 +197,7 @@ def get_data():
             #Appending data
             gbl_tbl = gbl_tbl.append(his)   
         
-        #Incrementing counter
+        #Incrementing counter by month
         counter_date = datetime(counter_date.year + int(counter_date.month / 12), ((counter_date.month % 12) + 1), 1)
         
         counter_year = int(counter_date.strftime("%Y"))
@@ -205,8 +205,8 @@ def get_data():
   
     #If the table is empty, that means there was nothing available for given address/point combo.
     if gbl_tbl.empty:
-        logging.debug("No file with requested address and point combination within given year and month.")
-        return("No file with this address and/or point within given year and month. Look at the data folder for available files.") 
+        logging.debug("No file with requested address and point combination.")
+        return("No file with this address and/or point. Look at the data folder for available files.") 
     
     #Applies datetime conversion to time column in DataFrame
     gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))

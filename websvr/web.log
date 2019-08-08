@@ -357,3 +357,38 @@ ValueError: day is out of range for month
 2019-08-08 11:24:57,500:INFO:127.0.0.1 - - [08/Aug/2019 11:24:57] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
 2019-08-08 11:26:40,182:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
 2019-08-08 11:26:42,085:INFO:127.0.0.1 - - [08/Aug/2019 11:26:42] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 11:31:41,378:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:31:45,593:DEBUG:No file with requested address and point combination within given year and month.
+2019-08-08 11:31:45,594:INFO:127.0.0.1 - - [08/Aug/2019 11:31:45] "GET /get_data?address=0&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 11:32:13,528:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:32:26,194:DEBUG:Wrong datetime format entered in URL argument. 
+	start: 2019-07-31-23:18:01
+	end: 2019-08-08 11:32:26
+2019-08-08 11:32:26,194:INFO:127.0.0.1 - - [08/Aug/2019 11:32:26] "GET /get_data?address=0&point=0&start=2019-07-31-23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 11:32:37,267:DEBUG:No file with requested address and point combination.
+2019-08-08 11:32:37,267:INFO:127.0.0.1 - - [08/Aug/2019 11:32:37] "GET /get_data?address=0&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 11:32:49,625:INFO:127.0.0.1 - - [08/Aug/2019 11:32:49] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 11:33:33,248:INFO:128.3.104.237 - - [08/Aug/2019 11:33:33] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:33:43,088:INFO:127.0.0.1 - - [08/Aug/2019 11:33:43] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:33:50,012:INFO:128.3.104.237 - - [08/Aug/2019 11:33:50] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:33:53,845:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:34:00,134:INFO:127.0.0.1 - - [08/Aug/2019 11:34:00] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:34:08,155:INFO:127.0.0.1 - - [08/Aug/2019 11:34:08] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:39:03,090:INFO:127.0.0.1 - - [08/Aug/2019 11:39:03] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:39:30,201:INFO:127.0.0.1 - - [08/Aug/2019 11:39:30] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 11:39:34,090:DEBUG:No file with requested address and point combination.
+2019-08-08 11:39:34,090:INFO:127.0.0.1 - - [08/Aug/2019 11:39:34] "GET /get_data?address=28&point=0&start=2018-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 11:39:51,261:INFO:127.0.0.1 - - [08/Aug/2019 11:39:51] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 11:39:58,346:DEBUG:No file with requested address and point combination.
+2019-08-08 11:39:58,347:INFO:127.0.0.1 - - [08/Aug/2019 11:39:58] "GET /get_data?address=28&point=0&start=2018-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 11:41:27,135:INFO:128.3.104.237 - - [08/Aug/2019 11:41:27] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:42:18,174:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:42:20,252:DEBUG:No file with requested address and point combination.
+2019-08-08 11:42:20,254:INFO:127.0.0.1 - - [08/Aug/2019 11:42:20] "GET /get_data?address=28&point=0&start=2018-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 11:43:34,317:INFO:128.3.104.237 - - [08/Aug/2019 11:43:34] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:43:51,106:INFO:128.3.104.237 - - [08/Aug/2019 11:43:51] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:44:23,087:INFO:127.0.0.1 - - [08/Aug/2019 11:44:23] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:44:36,542:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:44:43,685:INFO:127.0.0.1 - - [08/Aug/2019 11:44:43] "GET /get_data?address=28&point=0&start=2018-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 11:45:29,683:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:45:33,965:INFO:127.0.0.1 - - [08/Aug/2019 11:45:33] "GET /get_data?address=28&point=0&start=2018-07-31_23:18:01&end=now HTTP/1.1" 200 -
