@@ -22,9 +22,6 @@
   datetime_string = toStr(start_datetime)
   date_string = split(datetime_string, "T")[0]
   time_string = split(split(datetime_string, "T")[1], "-")[0]
-  
-  date_string: "2019-09-01"
-  time_string: "21:00:00"
 
   link: "http://fmcs-svc-mgr.lbl.gov/get_data?address=" + toStr(addr) + "&point=" + toStr(pt) + "&start=" + date_string + "_" + time_string + "&end=" + end_datetime
   his: ioReadCsv(`` +  link) 
