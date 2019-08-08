@@ -17,3 +17,378 @@
 2019-08-07 11:47:18,311:INFO: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
 2019-08-07 11:47:24,124:DEBUG:No file with requested address and point combination.
 2019-08-07 11:47:24,125:INFO:127.0.0.1 - - [07/Aug/2019 11:47:24] "GET /get_data?address=22&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 10:40:36,568:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 10:40:43,411:DEBUG:STARTING UP WEBSERVER OR SERVER BREAKDOWN
+2019-08-08 10:40:43,413:INFO:127.0.0.1 - - [08/Aug/2019 10:40:43] "GET / HTTP/1.1" 200 -
+2019-08-08 10:40:43,700:INFO:127.0.0.1 - - [08/Aug/2019 10:40:43] "GET /favicon.ico HTTP/1.1" 404 -
+2019-08-08 10:41:00,450:DEBUG:No file with requested address and point combination.
+2019-08-08 10:41:00,451:INFO:127.0.0.1 - - [08/Aug/2019 10:41:00] "GET /get_data?address=22&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 10:41:19,948:INFO:128.3.104.237 - - [08/Aug/2019 10:41:19] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 10:41:27,727:DEBUG:No file with requested address and point combination.
+2019-08-08 10:41:27,728:INFO:127.0.0.1 - - [08/Aug/2019 10:41:27] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 10:42:01,740:DEBUG:Wrong datetime format entered in URL argument. 
+start: 2019-07-31-23:18:01
+ end: 2019-08-08 10:42:01
+2019-08-08 10:42:01,741:INFO:127.0.0.1 - - [08/Aug/2019 10:42:01] "GET /get_data?address=28&point=0&start=2019-07-31-23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 10:43:20,804:DEBUG:No file with requested address and point combination.
+2019-08-08 10:43:20,805:INFO:127.0.0.1 - - [08/Aug/2019 10:43:20] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 10:43:25,944:DEBUG:No file with requested address and point combination.
+2019-08-08 10:43:25,944:INFO:127.0.0.1 - - [08/Aug/2019 10:43:25] "GET /get_data?address=28&point=00&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 10:43:27,773:INFO:128.3.104.237 - - [08/Aug/2019 10:43:27] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 10:43:31,432:DEBUG:No file with requested address and point combination.
+2019-08-08 10:43:31,432:INFO:127.0.0.1 - - [08/Aug/2019 10:43:31] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 10:43:44,697:INFO:128.3.104.237 - - [08/Aug/2019 10:43:44] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 10:44:08,262:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 10:44:13,337:DEBUG:No file with requested address and point combination.
+2019-08-08 10:44:13,337:INFO:127.0.0.1 - - [08/Aug/2019 10:44:13] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 10:45:00,340:DEBUG:No file with requested address and point combination.
+2019-08-08 10:45:00,341:INFO:127.0.0.1 - - [08/Aug/2019 10:45:00] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 10:45:36,449:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 10:45:38,570:INFO:127.0.0.1 - - [08/Aug/2019 10:45:38] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 10:45:53,092:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 10:45:56,735:INFO:127.0.0.1 - - [08/Aug/2019 10:45:56] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 10:46:15,201:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 10:46:17,972:INFO:127.0.0.1 - - [08/Aug/2019 10:46:17] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 10:46:59,555:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 10:47:02,155:DEBUG:No file with requested address and point combination.
+2019-08-08 10:47:02,157:INFO:127.0.0.1 - - [08/Aug/2019 10:47:02] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 10:48:25,967:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 10:48:28,199:DEBUG:No file with requested address and point combination.
+2019-08-08 10:48:28,200:INFO:127.0.0.1 - - [08/Aug/2019 10:48:28] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 10:48:59,831:INFO:127.0.0.1 - - [08/Aug/2019 10:48:59] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 10:49:07,846:INFO:127.0.0.1 - - [08/Aug/2019 10:49:07] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 10:49:49,712:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 10:49:51,313:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1949, in make_response
+    'The view function did not return a valid response tuple.'
+TypeError: The view function did not return a valid response tuple. The tuple must have the form (body, status, headers), (body, status), or (body, headers).
+2019-08-08 10:49:51,426:INFO:127.0.0.1 - - [08/Aug/2019 10:49:51] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-08 10:50:02,447:INFO:127.0.0.1 - - [08/Aug/2019 10:50:02] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 10:50:20,192:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 10:50:24,258:INFO:127.0.0.1 - - [08/Aug/2019 10:50:24] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 10:50:37,346:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 10:50:41,844:INFO:127.0.0.1 - - [08/Aug/2019 10:50:41] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 10:51:01,162:INFO:127.0.0.1 - - [08/Aug/2019 10:51:01] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 10:51:09,175:INFO:127.0.0.1 - - [08/Aug/2019 10:51:09] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 10:51:20,971:INFO:128.3.104.237 - - [08/Aug/2019 10:51:20] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 10:53:28,925:INFO:128.3.104.237 - - [08/Aug/2019 10:53:28] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 10:53:45,780:INFO:128.3.104.237 - - [08/Aug/2019 10:53:45] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 10:54:20,437:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 10:54:25,369:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 186, in get_data
+    if os.path.isfile('data/acquisuite_m' + address + "_p" + point + "_" + year + "_" + month + '.csv'):
+NameError: name 'year' is not defined
+2019-08-08 10:54:25,422:INFO:127.0.0.1 - - [08/Aug/2019 10:54:25] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-08 10:58:53,442:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 10:58:56,261:DEBUG:No file with requested address and point combination.
+2019-08-08 10:58:56,261:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "webserver.py", line 187, in get_data
+    dtype={"Address": str, "Point": str})
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\io\parsers.py", line 702, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\io\parsers.py", line 429, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\io\parsers.py", line 895, in __init__
+    self._make_engine(self.engine)
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\io\parsers.py", line 1122, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\io\parsers.py", line 1853, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 387, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 705, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] File b'data/acquisuite_m028_p00_2019_07.csv' does not exist: b'data/acquisuite_m028_p00_2019_07.csv'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 190, in get_data
+    raise ValueError("No file with this address and/or point. Please look at the data folder for available files.")
+ValueError: No file with this address and/or point. Please look at the data folder for available files.
+2019-08-08 10:58:56,312:INFO:127.0.0.1 - - [08/Aug/2019 10:58:56] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-08 10:59:34,927:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 10:59:37,711:DEBUG:No file with requested address and point combination.
+2019-08-08 10:59:37,712:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 199, in get_data
+    if os.path.isfile('data/acquisuite_m' + address + "_p" + point + "_" + year + "_" + month + '.csv'):
+NameError: name 'year' is not defined
+2019-08-08 10:59:37,717:INFO:127.0.0.1 - - [08/Aug/2019 10:59:37] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-08 10:59:56,919:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:01:22,012:INFO:128.3.104.237 - - [08/Aug/2019 11:01:22] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:03:29,987:INFO:128.3.104.237 - - [08/Aug/2019 11:03:29] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:03:46,805:INFO:128.3.104.237 - - [08/Aug/2019 11:03:46] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:08:50,976:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:08:53,177:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 188, in get_data
+    if os.path.isfile('data/acquisuite_m' + address + "_p" + point + "_" + year + "_" + month + '.csv'):
+NameError: name 'year' is not defined
+2019-08-08 11:08:53,179:INFO:127.0.0.1 - - [08/Aug/2019 11:08:53] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-08 11:10:08,010:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:10:12,080:INFO:127.0.0.1 - - [08/Aug/2019 11:10:12] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 11:10:36,391:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:10:41,357:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 188, in get_data
+    if os.path.isfile('data/acquisuite_m' + address + "_p" + point + "_" + year + "_" + month + '.csv'):
+NameError: name 'year' is not defined
+2019-08-08 11:10:41,364:INFO:127.0.0.1 - - [08/Aug/2019 11:10:41] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-08 11:11:23,067:INFO:128.3.104.237 - - [08/Aug/2019 11:11:23] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:11:27,970:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:11:30,490:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 188, in get_data
+    if os.path.isfile('data/acquisuite_m' + address + "_p" + point + "_" + year + "_" + month + '.csv'):
+NameError: name 'year' is not defined
+2019-08-08 11:11:30,495:INFO:127.0.0.1 - - [08/Aug/2019 11:11:30] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-08 11:12:35,155:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:12:42,312:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 188, in get_data
+    if os.path.isfile('data/acquisuite_m' + address + "_p" + point + "_" + year + "_" + month + '.csv'):
+NameError: name 'year' is not defined
+2019-08-08 11:12:42,321:INFO:127.0.0.1 - - [08/Aug/2019 11:12:42] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-08 11:13:31,090:INFO:128.3.104.237 - - [08/Aug/2019 11:13:31] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:13:47,884:INFO:128.3.104.237 - - [08/Aug/2019 11:13:47] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:14:12,813:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:14:15,206:INFO:127.0.0.1 - - [08/Aug/2019 11:14:15] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 11:14:37,508:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:14:39,124:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 188, in get_data
+    if os.path.isfile('data/acquisuite_m' + address + "_p" + point + "_" + year + "_" + month + '.csv'):
+NameError: name 'year' is not defined
+2019-08-08 11:14:39,129:INFO:127.0.0.1 - - [08/Aug/2019 11:14:39] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-08 11:15:18,661:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:15:23,075:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 188, in get_data
+    if os.path.isfile('data/acquisuite_m' + address + "_p" + point + "_" + year + "_" + month + '.csv'):
+NameError: name 'year' is not defined
+2019-08-08 11:15:23,079:INFO:127.0.0.1 - - [08/Aug/2019 11:15:23] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-08 11:16:21,124:INFO: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-08-08 11:16:23,977:DEBUG:STARTING UP WEBSERVER OR SERVER BREAKDOWN
+2019-08-08 11:16:23,979:INFO:127.0.0.1 - - [08/Aug/2019 11:16:23] "GET / HTTP/1.1" 200 -
+2019-08-08 11:16:24,225:INFO:127.0.0.1 - - [08/Aug/2019 11:16:24] "GET /favicon.ico HTTP/1.1" 404 -
+2019-08-08 11:17:17,529:INFO: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-08-08 11:17:30,460:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:17:51,728:DEBUG:No file with requested address and point combination within given year and month.
+2019-08-08 11:17:51,730:INFO:127.0.0.1 - - [08/Aug/2019 11:17:51] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 11:18:59,831:INFO:127.0.0.1 - - [08/Aug/2019 11:18:59] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:21:21,191:INFO:127.0.0.1 - - [08/Aug/2019 11:21:21] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:21:24,088:INFO:128.3.104.237 - - [08/Aug/2019 11:21:24] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:23:29,066:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:23:32,182:INFO:128.3.104.237 - - [08/Aug/2019 11:23:32] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:23:44,187:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 187, in get_data
+    while (counter_year <= end_year and counter_month <= end_month):
+TypeError: '<=' not supported between instances of 'int' and 'str'
+2019-08-08 11:23:44,192:INFO:127.0.0.1 - - [08/Aug/2019 11:23:44] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-08 11:23:48,951:INFO:128.3.104.237 - - [08/Aug/2019 11:23:48] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:24:10,592:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:24:12,750:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 187, in get_data
+    while (counter_year <= end_year and counter_month <= end_month):
+TypeError: '<=' not supported between instances of 'str' and 'int'
+2019-08-08 11:24:12,752:INFO:127.0.0.1 - - [08/Aug/2019 11:24:12] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-08 11:24:23,679:INFO:127.0.0.1 - - [08/Aug/2019 11:24:23] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:24:31,716:INFO:127.0.0.1 - - [08/Aug/2019 11:24:31] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:24:52,275:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:24:57,493:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 202, in get_data
+    counter_date = datetime(counter_date.year + int(counter_date.month / 12), ((counter_date.month % 12) + 1), counter_date.day)
+ValueError: day is out of range for month
+2019-08-08 11:24:57,500:INFO:127.0.0.1 - - [08/Aug/2019 11:24:57] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-08 11:26:40,182:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:26:42,085:INFO:127.0.0.1 - - [08/Aug/2019 11:26:42] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 11:31:41,378:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:31:45,593:DEBUG:No file with requested address and point combination within given year and month.
+2019-08-08 11:31:45,594:INFO:127.0.0.1 - - [08/Aug/2019 11:31:45] "GET /get_data?address=0&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 11:32:13,528:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:32:26,194:DEBUG:Wrong datetime format entered in URL argument. 
+	start: 2019-07-31-23:18:01
+	end: 2019-08-08 11:32:26
+2019-08-08 11:32:26,194:INFO:127.0.0.1 - - [08/Aug/2019 11:32:26] "GET /get_data?address=0&point=0&start=2019-07-31-23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 11:32:37,267:DEBUG:No file with requested address and point combination.
+2019-08-08 11:32:37,267:INFO:127.0.0.1 - - [08/Aug/2019 11:32:37] "GET /get_data?address=0&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 11:32:49,625:INFO:127.0.0.1 - - [08/Aug/2019 11:32:49] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 11:33:33,248:INFO:128.3.104.237 - - [08/Aug/2019 11:33:33] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:33:43,088:INFO:127.0.0.1 - - [08/Aug/2019 11:33:43] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:33:50,012:INFO:128.3.104.237 - - [08/Aug/2019 11:33:50] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:33:53,845:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:34:00,134:INFO:127.0.0.1 - - [08/Aug/2019 11:34:00] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:34:08,155:INFO:127.0.0.1 - - [08/Aug/2019 11:34:08] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:39:03,090:INFO:127.0.0.1 - - [08/Aug/2019 11:39:03] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:39:30,201:INFO:127.0.0.1 - - [08/Aug/2019 11:39:30] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 11:39:34,090:DEBUG:No file with requested address and point combination.
+2019-08-08 11:39:34,090:INFO:127.0.0.1 - - [08/Aug/2019 11:39:34] "GET /get_data?address=28&point=0&start=2018-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 11:39:51,261:INFO:127.0.0.1 - - [08/Aug/2019 11:39:51] "GET /get_data?address=28&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 11:39:58,346:DEBUG:No file with requested address and point combination.
+2019-08-08 11:39:58,347:INFO:127.0.0.1 - - [08/Aug/2019 11:39:58] "GET /get_data?address=28&point=0&start=2018-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 11:41:27,135:INFO:128.3.104.237 - - [08/Aug/2019 11:41:27] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:42:18,174:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:42:20,252:DEBUG:No file with requested address and point combination.
+2019-08-08 11:42:20,254:INFO:127.0.0.1 - - [08/Aug/2019 11:42:20] "GET /get_data?address=28&point=0&start=2018-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 11:43:34,317:INFO:128.3.104.237 - - [08/Aug/2019 11:43:34] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:43:51,106:INFO:128.3.104.237 - - [08/Aug/2019 11:43:51] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:44:23,087:INFO:127.0.0.1 - - [08/Aug/2019 11:44:23] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-08 11:44:36,542:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:44:43,685:INFO:127.0.0.1 - - [08/Aug/2019 11:44:43] "GET /get_data?address=28&point=0&start=2018-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-08 11:45:29,683:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-08 11:45:33,965:INFO:127.0.0.1 - - [08/Aug/2019 11:45:33] "GET /get_data?address=28&point=0&start=2018-07-31_23:18:01&end=now HTTP/1.1" 200 -
