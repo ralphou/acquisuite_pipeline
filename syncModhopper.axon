@@ -28,7 +28,7 @@
 
   list: []
   his.each reading => do
-    time: tparseDateTime(reading->time, pattern: "YYYY-MM-DD hh:mm:ss")
+    time: parseDateTime(reading->time, pattern: "YYYY-MM-DD hh:mm:ss")
     value: reading->value
     list = add(list, {ts: time, val: value})
     end
