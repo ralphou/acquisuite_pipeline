@@ -33,7 +33,7 @@ def default():
         get_data_xml(tree)
     except:
         print("START UP")
-        logging.debug("STARTING UP WEBSERVER")
+        logging.debug("STARTING UP WEBSERVER OR SERVER BREAKDOWN")
 
     #This section is important in response to the AcquiSuite response. This XML response is the only way to 
     #properly respond to the AcquiSuite in which it will receive a "SUCCESS" indicator and delete backlogged files.
@@ -166,34 +166,47 @@ def get_data():
         start = datetime.strptime(start, '%Y-%m-%d %H:%M:%S')
         end = datetime.strptime(end, '%Y-%m-%d %H:%M:%S')
     except:
-        logging.debug('Wrong datetime format entered in URL argument.')
-        return "Wrong format! Look at comments in webserver.py for an example!"
+        #Append malformed argument?
+        logging.debug('Wrong datetime format entered in URL argument. \n\tstart: %s\n\tend: %s' % (start, end))
+        return "Wrong format! Look at comments in webserver.py for an example!" 
     
     #Initializing global table
     gbl_tbl = pd.DataFrame(columns=["Address", "Point", "Name", "Value", "Time"])
 
     #Increasing start date by a month each time to get all values until current year-month
-    #Note that this block of code only matters if start and end time difference exceeds a month
     counter_date = start
-    while (counter_date < end):
-        try:
-            #Time to string conversions
-            if counter_date.month < 10:
-                month = "0" + str(counter_date.month)
-                  
-            #Reading csv files by month
+    month = ""   
+    
+    counter_year = int(counter_date.strftime("%Y"))
+    counter_month = int(counter_date.strftime("%m"))
+    end_year = int(end.strftime("%Y"))
+    end_month = int(end.strftime("%m"))
+    
+    #Datetime iteration until endtime
+    while (counter_year <= end_year and counter_month <= end_month):
+        #Time to string conversions
+        if counter_date.month < 10:
+            month = "0" + str(counter_date.month)
+
+        #Reading csv files by month
+        if os.path.isfile('data/acquisuite_m' + address + "_p" + point + "_" + str(counter_date.year) + "_" + month + '.csv'):
             his = pd.read_csv('data/acquisuite_m' + address + "_p" + point + "_" + \
-                              str(counter_date.year) + "_" + month + '.csv', 
-                              dtype={"Address": str, "Point": str})
-            return his
+                  str(counter_date.year) + "_" + month + '.csv',
+                  dtype={"Address": str, "Point": str})
+
             #Appending data
-            gbl_tbl = gbl_tbl.append(his)
-            
-            #Incrementing counter
-            counter_date = datetime(counter_date.year + int(counter_date.month / 12), ((counter_date.month % 12) + 1), counter_date.day)
-        except:
-            logging.debug("No file with requested address and point combination.")
-            return "No file with this address and/or point. Please look at the data folder for available files."
+            gbl_tbl = gbl_tbl.append(his)   
+        
+        #Incrementing counter
+        counter_date = datetime(counter_date.year + int(counter_date.month / 12), ((counter_date.month % 12) + 1), 1)
+        
+        counter_year = int(counter_date.strftime("%Y"))
+        counter_month = int(counter_date.strftime("%m"))
+  
+    #If the table is empty, that means there was nothing available for given address/point combo.
+    if gbl_tbl.empty:
+        logging.debug("No file with requested address and point combination within given year and month.")
+        return("No file with this address and/or point within given year and month. Look at the data folder for available files.") 
     
     #Applies datetime conversion to time column in DataFrame
     gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
