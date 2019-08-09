@@ -8,4 +8,4 @@ services:
       - ./websvr:/websvr
     ports:
       - "80:80"
-    #command: python ./flask.py
+    command: python /websvr/webserver.py
