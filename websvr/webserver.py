@@ -220,13 +220,23 @@ def get_data():
     #EXAMPLE URL: http://localhost:8080/get_data?address=37&point=0&start=2019-07-31_23:18:01&end=2019-07-31_23:23:01
     #EXAMPLE URL: http://localhost:8080/get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now
 
+#Returns log file for external use
+@app.route('/get_log', methods=['GET'])    
+def get_log():
+    
+    log_string = """"""
+    with open('web.log') as fp:
+        for cnt, line in enumerate(fp):
+            log_string += line
+            log_string += "\n"
+      #This commented out section is to test the log_string output. In file form, it is correct, but when outputted
+      #into the server push, it is a block of text.
+#     f = open("test_log.txt","w+")
+#     f.write(log_string)
+#     f.close()
+    return log_string
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=80)
-    
-    
-#Additional routes to retreive debugging info or something, some logging route
-#Look into logging import in Python
-#Look into gzip (gz) for compression
     
     
     
