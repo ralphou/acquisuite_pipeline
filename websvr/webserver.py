@@ -217,8 +217,8 @@ def get_data():
     #return gbl_tbl.to_html(header="true", table_id="table")
     return gbl_tbl.to_csv(index=False)
 
-    #EXAMPLE URL: http://localhost:8080/get_data?address=37&point=0&start=2019-07-31_23:18:01&end=2019-07-31_23:23:01
-    #EXAMPLE URL: http://localhost:8080/get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now
+    #EXAMPLE URL: http://localhost:80/get_data?address=37&point=0&start=2019-07-31_23:18:01&end=2019-07-31_23:23:01
+    #EXAMPLE URL: http://localhost:80/get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now
 
 #Returns log file for external use
 @app.route('/get_log', methods=['GET'])    
