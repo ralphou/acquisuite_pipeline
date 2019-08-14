@@ -471,3 +471,50 @@ UnboundLocalError: local variable 'string' referenced before assignment
 2019-08-09 09:02:20,284:INFO:127.0.0.1 - - [09/Aug/2019 09:02:20] "GET /get_log HTTP/1.1" 200 -
 2019-08-09 09:05:34,890:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
 2019-08-09 09:05:36,098:INFO:127.0.0.1 - - [09/Aug/2019 09:05:36] "GET /get_log HTTP/1.1" 200 -
+2019-08-13 10:23:56,142:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-13 10:24:04,006:DEBUG:STARTING UP WEBSERVER OR SERVER BREAKDOWN
+2019-08-13 10:24:04,007:INFO:127.0.0.1 - - [13/Aug/2019 10:24:04] "GET / HTTP/1.1" 200 -
+2019-08-13 10:24:04,263:INFO:127.0.0.1 - - [13/Aug/2019 10:24:04] "GET /favicon.ico HTTP/1.1" 404 -
+2019-08-13 10:24:17,836:ERROR:Exception on /get_log [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 233, in get_log
+    for line in reversed(list(open("filename"))):
+FileNotFoundError: [Errno 2] No such file or directory: 'filename'
+2019-08-13 10:24:17,869:INFO:127.0.0.1 - - [13/Aug/2019 10:24:17] "GET /get_log?num_lines=20 HTTP/1.1" 500 -
+2019-08-13 10:24:46,219:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-13 10:24:47,087:ERROR:Exception on /get_log [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 234, in get_log
+    if counter < num_lines:
+TypeError: '<' not supported between instances of 'int' and 'str'
+2019-08-13 10:24:47,088:INFO:127.0.0.1 - - [13/Aug/2019 10:24:47] "GET /get_log?num_lines=20 HTTP/1.1" 500 -
+2019-08-13 10:25:19,225:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-13 10:25:21,234:INFO:127.0.0.1 - - [13/Aug/2019 10:25:21] "GET /get_log?num_lines=20 HTTP/1.1" 200 -
+2019-08-13 10:25:53,487:INFO:131.243.229.12 - - [13/Aug/2019 10:25:53] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-13 10:26:20,157:DEBUG:STARTING UP WEBSERVER OR SERVER BREAKDOWN
+2019-08-13 10:26:20,157:INFO:127.0.0.1 - - [13/Aug/2019 10:26:20] "GET / HTTP/1.1" 200 -
+2019-08-13 10:26:28,505:INFO:127.0.0.1 - - [13/Aug/2019 10:26:28] "GET /get_log?num_lines=20 HTTP/1.1" 200 -

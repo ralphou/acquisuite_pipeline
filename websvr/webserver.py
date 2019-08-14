@@ -32,7 +32,7 @@ def default():
         tree = ET.ElementTree(ET.fromstring(clean_xml))
         get_data_xml(tree)
     except:
-        print("START UP")
+        print("START UP or SERVER BREAKDOWN")
         logging.debug("STARTING UP WEBSERVER OR SERVER BREAKDOWN")
 
     #This section is important in response to the AcquiSuite response. This XML response is the only way to 
@@ -221,14 +221,23 @@ def get_data():
     #EXAMPLE URL: http://localhost:80/get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now
 
 #Returns log file for external use
-@app.route('/get_log', methods=['GET'])    
+#EXAMPLE: http://localhost/get_log?num_lines=20
+@app.route('/get_log', methods=['GET'])
 def get_log():
     
+    #Gets the number of lines requested
+    num_lines = request.args.get('num_lines')
     log_string = """"""
-    with open('web.log') as fp:
-        for cnt, line in enumerate(fp):
+    counter = 0
+    
+    #Parses through the file in reverse order
+    for line in reversed(list(open("web.log"))):
+        if counter < int(num_lines):
             log_string += line
-            log_string += "\n"
+        else:
+            break
+        counter += 1
+        
       #This commented out section is to test the log_string output. In file form, it is correct, but when outputted
       #into the server push, it is a block of text.
 #     f = open("test_log.txt","w+")
