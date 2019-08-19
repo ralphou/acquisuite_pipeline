@@ -91,6 +91,9 @@ def get_data_xml(xmlTree):
         #Iterate through all points within the record
         for child in record:
             #This is mainly to get the points, we can alter to specify other info like error messages
+            #Note that this zone if statement has not been extensively debugged on live server
+            if "zone" in child.attrib:
+                time = time + " " + child.attrib['zone']
             if "value" in child.attrib and child.attrib['value'] != "NULL":
                 if custom_map.get((int(address), int(child.attrib['number'])), 'null') != 'null':
                     #Below is for file naming convention, assuming points will not exceed 99
