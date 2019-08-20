@@ -213,6 +213,7 @@ def get_data():
         return("No file with this address and/or point. Look at the data folder for available files.") 
     
     #Applies datetime conversion to time column in DataFrame
+    #NOTE THAT THIS IS THE VERSION WITH TIMEZONE INFO, AND IS NOT STABLE
             
     gbl_tbl['Temp'] = gbl_tbl['Time'].apply(lambda x: '' if bool(re.search(r'[0-9]', x[-1:])) else x[-4:])
     
@@ -228,29 +229,15 @@ def get_data():
     gbl_tbl['Time'] = gbl_tbl['Time'].str.cat(gbl_tbl['Temp'].tolist(), sep='')
     
     gbl_tbl = gbl_tbl.drop(columns=['Temp'])
-    
-#         lambda x: 'True' if x <= 4 else 'False'
-#         temp_time = gbl_tbl['Time'].apply(lambda x: x[:3])
-#         temp_series = gbl_tbl['Time'].apply(lambda x: x[:-4])
-#         temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
-        
-#         gbl_tbl['Time'] = temp_series
-        
-#         #Filtering now by time
-#         gbl_tbl = gbl_tbl[(gbl_tbl['Time'] >= start) & (gbl_tbl['Time'] <= end)]
-        
-#         #Returning to viewable format
-#         gbl_tbl['Time'] = gbl_tbl['Time'].apply(x.strftime('%Y-%m-%d %H:%M:%S'))
-#         gbl_tbl['Time'] = gbl_tbl['time'].str.cat(temp_time.tolist(), sep=' ')
-        
-#     except:
+    #The commented version is the stable version, without timezone additions. Note that if the live server has timezones within the csv,       #there will be future issues trying to call it. You can modify the above code to fix that, however. 
+    #Simply check if any entires within gbl_tbl['Time'] contain "UTC", and if it does, remove it. 
 #         gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
         
 #         #Filtering now by time
 #         gbl_tbl = gbl_tbl[(gbl_tbl['Time'] >= start) & (gbl_tbl['Time'] <= end)]
     
-    return gbl_tbl.to_html(header="true", table_id="table")
-    #return gbl_tbl.to_csv(index=False)
+    #return gbl_tbl.to_html(header="true", table_id="table")
+    return gbl_tbl.to_csv(index=False)
 
     #EXAMPLE URL: http://localhost:80/get_data?address=37&point=0&start=2019-07-31_23:18:01&end=2019-07-31_23:23:01
     #EXAMPLE URL: http://localhost:80/get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now
