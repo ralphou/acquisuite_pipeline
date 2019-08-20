@@ -157,8 +157,9 @@ def get_data():
         point = "0" + point
         
     #Default value for end is current time
+    #NOTE THAT DATETIME NOW IS IN UTC
     if end == 'now':
-        end = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        end = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')
     
     #Changes user string input for start/end to datetime format
     #NOTE: remember the format for entering params! Look at comments above. This is because entering 
@@ -212,13 +213,44 @@ def get_data():
         return("No file with this address and/or point. Look at the data folder for available files.") 
     
     #Applies datetime conversion to time column in DataFrame
-    gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+            
+    gbl_tbl['Temp'] = gbl_tbl['Time'].apply(lambda x: '' if bool(re.search(r'[0-9]', x[-1:])) else x[-4:])
     
+    temp_series = gbl_tbl['Time'].apply(lambda x: x[:-4] if bool(re.search(r'[a-zA-Z]', x[-1])) else x)
+    temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+    gbl_tbl['Time'] = temp_series
+        
     #Filtering now by time
     gbl_tbl = gbl_tbl[(gbl_tbl['Time'] >= start) & (gbl_tbl['Time'] <= end)]
     
-    #return gbl_tbl.to_html(header="true", table_id="table")
-    return gbl_tbl.to_csv(index=False)
+    gbl_tbl['Time'] = gbl_tbl['Time'].apply(lambda x: x.strftime('%Y-%m-%d %H:%M:%S'))
+    
+    gbl_tbl['Time'] = gbl_tbl['Time'].str.cat(gbl_tbl['Temp'].tolist(), sep='')
+    
+    gbl_tbl = gbl_tbl.drop(columns=['Temp'])
+    
+#         lambda x: 'True' if x <= 4 else 'False'
+#         temp_time = gbl_tbl['Time'].apply(lambda x: x[:3])
+#         temp_series = gbl_tbl['Time'].apply(lambda x: x[:-4])
+#         temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+        
+#         gbl_tbl['Time'] = temp_series
+        
+#         #Filtering now by time
+#         gbl_tbl = gbl_tbl[(gbl_tbl['Time'] >= start) & (gbl_tbl['Time'] <= end)]
+        
+#         #Returning to viewable format
+#         gbl_tbl['Time'] = gbl_tbl['Time'].apply(x.strftime('%Y-%m-%d %H:%M:%S'))
+#         gbl_tbl['Time'] = gbl_tbl['time'].str.cat(temp_time.tolist(), sep=' ')
+        
+#     except:
+#         gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+        
+#         #Filtering now by time
+#         gbl_tbl = gbl_tbl[(gbl_tbl['Time'] >= start) & (gbl_tbl['Time'] <= end)]
+    
+    return gbl_tbl.to_html(header="true", table_id="table")
+    #return gbl_tbl.to_csv(index=False)
 
     #EXAMPLE URL: http://localhost:80/get_data?address=37&point=0&start=2019-07-31_23:18:01&end=2019-07-31_23:23:01
     #EXAMPLE URL: http://localhost:80/get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now

@@ -518,3 +518,1377 @@ TypeError: '<' not supported between instances of 'int' and 'str'
 2019-08-13 10:26:20,157:DEBUG:STARTING UP WEBSERVER OR SERVER BREAKDOWN
 2019-08-13 10:26:20,157:INFO:127.0.0.1 - - [13/Aug/2019 10:26:20] "GET / HTTP/1.1" 200 -
 2019-08-13 10:26:28,505:INFO:127.0.0.1 - - [13/Aug/2019 10:26:28] "GET /get_log?num_lines=20 HTTP/1.1" 200 -
+2019-08-20 12:02:37,929:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 12:02:43,952:DEBUG:STARTING UP WEBSERVER OR SERVER BREAKDOWN
+2019-08-20 12:02:43,953:INFO:127.0.0.1 - - [20/Aug/2019 12:02:43] "GET / HTTP/1.1" 200 -
+2019-08-20 12:02:44,229:INFO:127.0.0.1 - - [20/Aug/2019 12:02:44] "GET /favicon.ico HTTP/1.1" 404 -
+2019-08-20 12:08:14,773:INFO:131.243.229.11 - - [20/Aug/2019 12:08:14] "POST / HTTP/1.1" 200 -
+2019-08-20 12:08:31,129:INFO:131.243.229.11 - - [20/Aug/2019 12:08:31] "POST / HTTP/1.1" 200 -
+2019-08-20 12:08:32,207:INFO:131.243.229.11 - - [20/Aug/2019 12:08:32] "POST / HTTP/1.1" 200 -
+2019-08-20 12:09:26,791:INFO:131.243.229.11 - - [20/Aug/2019 12:09:26] "POST / HTTP/1.1" 200 -
+2019-08-20 12:09:45,982:INFO:131.243.229.11 - - [20/Aug/2019 12:09:45] "POST / HTTP/1.1" 200 -
+2019-08-20 12:10:06,061:INFO:131.243.229.11 - - [20/Aug/2019 12:10:06] "POST / HTTP/1.1" 200 -
+2019-08-20 12:10:07,268:INFO:131.243.229.11 - - [20/Aug/2019 12:10:07] "POST / HTTP/1.1" 200 -
+2019-08-20 12:10:13,813:INFO:131.243.229.11 - - [20/Aug/2019 12:10:13] "POST / HTTP/1.1" 200 -
+2019-08-20 12:10:49,085:INFO:131.243.229.11 - - [20/Aug/2019 12:10:49] "POST / HTTP/1.1" 200 -
+2019-08-20 12:10:56,843:INFO:131.243.229.11 - - [20/Aug/2019 12:10:56] "POST / HTTP/1.1" 200 -
+2019-08-20 12:11:16,870:INFO:131.243.229.11 - - [20/Aug/2019 12:11:16] "POST / HTTP/1.1" 200 -
+2019-08-20 12:11:17,599:INFO:131.243.229.11 - - [20/Aug/2019 12:11:17] "POST / HTTP/1.1" 200 -
+2019-08-20 12:11:36,631:INFO:131.243.229.11 - - [20/Aug/2019 12:11:36] "POST / HTTP/1.1" 200 -
+2019-08-20 12:11:55,229:INFO:131.243.229.11 - - [20/Aug/2019 12:11:55] "POST / HTTP/1.1" 200 -
+2019-08-20 12:11:56,445:INFO:131.243.229.11 - - [20/Aug/2019 12:11:56] "POST / HTTP/1.1" 200 -
+2019-08-20 12:12:59,119:INFO:131.243.229.11 - - [20/Aug/2019 12:12:59] "POST / HTTP/1.1" 200 -
+2019-08-20 12:13:05,458:INFO:131.243.229.11 - - [20/Aug/2019 12:13:05] "POST / HTTP/1.1" 200 -
+2019-08-20 12:13:26,975:INFO:131.243.229.11 - - [20/Aug/2019 12:13:26] "POST / HTTP/1.1" 200 -
+2019-08-20 12:13:48,812:INFO:131.243.229.11 - - [20/Aug/2019 12:13:48] "POST / HTTP/1.1" 200 -
+2019-08-20 12:13:49,420:INFO:131.243.229.11 - - [20/Aug/2019 12:13:49] "POST / HTTP/1.1" 200 -
+2019-08-20 12:14:12,969:INFO:131.243.229.11 - - [20/Aug/2019 12:14:12] "POST / HTTP/1.1" 200 -
+2019-08-20 12:14:13,879:INFO:131.243.229.11 - - [20/Aug/2019 12:14:13] "POST / HTTP/1.1" 200 -
+2019-08-20 12:14:23,878:INFO:131.243.229.11 - - [20/Aug/2019 12:14:23] "POST / HTTP/1.1" 200 -
+2019-08-20 12:14:45,039:INFO:131.243.229.11 - - [20/Aug/2019 12:14:45] "POST / HTTP/1.1" 200 -
+2019-08-20 12:14:45,960:INFO:131.243.229.11 - - [20/Aug/2019 12:14:45] "POST / HTTP/1.1" 200 -
+2019-08-20 12:15:06,656:INFO:131.243.229.11 - - [20/Aug/2019 12:15:06] "POST / HTTP/1.1" 200 -
+2019-08-20 12:15:07,465:INFO:131.243.229.11 - - [20/Aug/2019 12:15:07] "POST / HTTP/1.1" 200 -
+2019-08-20 12:16:10,245:INFO:131.243.229.11 - - [20/Aug/2019 12:16:10] "POST / HTTP/1.1" 200 -
+2019-08-20 12:16:11,410:INFO:131.243.229.11 - - [20/Aug/2019 12:16:11] "POST / HTTP/1.1" 200 -
+2019-08-20 12:19:40,816:INFO:131.243.229.11 - - [20/Aug/2019 12:19:40] "POST / HTTP/1.1" 200 -
+2019-08-20 12:19:42,049:INFO:131.243.229.11 - - [20/Aug/2019 12:19:42] "POST / HTTP/1.1" 200 -
+2019-08-20 12:19:44,314:INFO:131.243.229.11 - - [20/Aug/2019 12:19:44] "POST / HTTP/1.1" 200 -
+2019-08-20 12:19:45,850:INFO:131.243.229.11 - - [20/Aug/2019 12:19:45] "POST / HTTP/1.1" 200 -
+2019-08-20 12:19:49,234:INFO:131.243.229.11 - - [20/Aug/2019 12:19:49] "POST / HTTP/1.1" 200 -
+2019-08-20 12:19:50,334:INFO:131.243.229.11 - - [20/Aug/2019 12:19:50] "POST / HTTP/1.1" 200 -
+2019-08-20 12:19:52,201:INFO:131.243.229.11 - - [20/Aug/2019 12:19:52] "POST / HTTP/1.1" 200 -
+2019-08-20 12:19:55,361:INFO:131.243.229.11 - - [20/Aug/2019 12:19:55] "POST / HTTP/1.1" 200 -
+2019-08-20 12:19:56,327:INFO:131.243.229.11 - - [20/Aug/2019 12:19:56] "POST / HTTP/1.1" 200 -
+2019-08-20 12:19:57,565:INFO:131.243.229.11 - - [20/Aug/2019 12:19:57] "POST / HTTP/1.1" 200 -
+2019-08-20 12:20:00,685:INFO:131.243.229.11 - - [20/Aug/2019 12:20:00] "POST / HTTP/1.1" 200 -
+2019-08-20 12:20:02,240:INFO:131.243.229.11 - - [20/Aug/2019 12:20:02] "POST / HTTP/1.1" 200 -
+2019-08-20 12:20:03,366:INFO:131.243.229.11 - - [20/Aug/2019 12:20:03] "POST / HTTP/1.1" 200 -
+2019-08-20 12:20:04,629:INFO:131.243.229.11 - - [20/Aug/2019 12:20:04] "POST / HTTP/1.1" 200 -
+2019-08-20 12:20:07,756:INFO:131.243.229.11 - - [20/Aug/2019 12:20:07] "POST / HTTP/1.1" 200 -
+2019-08-20 12:20:08,623:INFO:131.243.229.11 - - [20/Aug/2019 12:20:08] "POST / HTTP/1.1" 200 -
+2019-08-20 12:20:09,858:INFO:131.243.229.11 - - [20/Aug/2019 12:20:09] "POST / HTTP/1.1" 200 -
+2019-08-20 12:20:10,881:INFO:131.243.229.11 - - [20/Aug/2019 12:20:10] "POST / HTTP/1.1" 200 -
+2019-08-20 12:20:14,118:INFO:131.243.229.11 - - [20/Aug/2019 12:20:14] "POST / HTTP/1.1" 200 -
+2019-08-20 12:20:15,246:INFO:131.243.229.11 - - [20/Aug/2019 12:20:15] "POST / HTTP/1.1" 200 -
+2019-08-20 12:24:42,834:INFO:131.243.229.11 - - [20/Aug/2019 12:24:42] "POST / HTTP/1.1" 200 -
+2019-08-20 12:24:43,904:INFO:131.243.229.11 - - [20/Aug/2019 12:24:43] "POST / HTTP/1.1" 200 -
+2019-08-20 12:24:45,756:INFO:131.243.229.11 - - [20/Aug/2019 12:24:45] "POST / HTTP/1.1" 200 -
+2019-08-20 12:24:47,799:INFO:131.243.229.11 - - [20/Aug/2019 12:24:47] "POST / HTTP/1.1" 200 -
+2019-08-20 12:24:49,154:INFO:131.243.229.11 - - [20/Aug/2019 12:24:49] "POST / HTTP/1.1" 200 -
+2019-08-20 12:24:50,226:INFO:131.243.229.11 - - [20/Aug/2019 12:24:50] "POST / HTTP/1.1" 200 -
+2019-08-20 12:24:53,534:INFO:131.243.229.11 - - [20/Aug/2019 12:24:53] "POST / HTTP/1.1" 200 -
+2019-08-20 12:24:54,575:INFO:131.243.229.11 - - [20/Aug/2019 12:24:54] "POST / HTTP/1.1" 200 -
+2019-08-20 12:24:55,680:INFO:131.243.229.11 - - [20/Aug/2019 12:24:55] "POST / HTTP/1.1" 200 -
+2019-08-20 12:24:56,656:INFO:131.243.229.11 - - [20/Aug/2019 12:24:56] "POST / HTTP/1.1" 200 -
+2019-08-20 12:24:59,540:INFO:131.243.229.11 - - [20/Aug/2019 12:24:59] "POST / HTTP/1.1" 200 -
+2019-08-20 12:25:00,815:INFO:131.243.229.11 - - [20/Aug/2019 12:25:00] "POST / HTTP/1.1" 200 -
+2019-08-20 12:25:01,866:INFO:131.243.229.11 - - [20/Aug/2019 12:25:01] "POST / HTTP/1.1" 200 -
+2019-08-20 12:25:05,227:INFO:131.243.229.11 - - [20/Aug/2019 12:25:05] "POST / HTTP/1.1" 200 -
+2019-08-20 12:25:05,968:INFO:131.243.229.11 - - [20/Aug/2019 12:25:05] "POST / HTTP/1.1" 200 -
+2019-08-20 12:25:07,061:INFO:131.243.229.11 - - [20/Aug/2019 12:25:07] "POST / HTTP/1.1" 200 -
+2019-08-20 12:25:08,016:INFO:131.243.229.11 - - [20/Aug/2019 12:25:08] "POST / HTTP/1.1" 200 -
+2019-08-20 12:25:10,100:INFO:131.243.229.11 - - [20/Aug/2019 12:25:10] "POST / HTTP/1.1" 200 -
+2019-08-20 12:25:11,132:INFO:131.243.229.11 - - [20/Aug/2019 12:25:11] "POST / HTTP/1.1" 200 -
+2019-08-20 12:25:12,565:INFO:131.243.229.11 - - [20/Aug/2019 12:25:12] "POST / HTTP/1.1" 200 -
+2019-08-20 12:29:21,172:INFO:131.243.229.11 - - [20/Aug/2019 12:29:21] "POST / HTTP/1.1" 200 -
+2019-08-20 12:29:21,940:INFO:131.243.229.11 - - [20/Aug/2019 12:29:21] "POST / HTTP/1.1" 200 -
+2019-08-20 12:29:23,511:INFO:131.243.229.11 - - [20/Aug/2019 12:29:23] "POST / HTTP/1.1" 200 -
+2019-08-20 12:29:24,520:INFO:131.243.229.11 - - [20/Aug/2019 12:29:24] "POST / HTTP/1.1" 200 -
+2019-08-20 12:29:27,775:INFO:131.243.229.11 - - [20/Aug/2019 12:29:27] "POST / HTTP/1.1" 200 -
+2019-08-20 12:29:28,605:INFO:131.243.229.11 - - [20/Aug/2019 12:29:28] "POST / HTTP/1.1" 200 -
+2019-08-20 12:29:29,942:INFO:131.243.229.11 - - [20/Aug/2019 12:29:29] "POST / HTTP/1.1" 200 -
+2019-08-20 12:29:31,196:INFO:131.243.229.11 - - [20/Aug/2019 12:29:31] "POST / HTTP/1.1" 200 -
+2019-08-20 12:29:34,375:INFO:131.243.229.11 - - [20/Aug/2019 12:29:34] "POST / HTTP/1.1" 200 -
+2019-08-20 12:29:35,314:INFO:131.243.229.11 - - [20/Aug/2019 12:29:35] "POST / HTTP/1.1" 200 -
+2019-08-20 12:29:36,266:INFO:131.243.229.11 - - [20/Aug/2019 12:29:36] "POST / HTTP/1.1" 200 -
+2019-08-20 12:29:37,733:INFO:131.243.229.11 - - [20/Aug/2019 12:29:37] "POST / HTTP/1.1" 200 -
+2019-08-20 12:29:40,821:INFO:131.243.229.11 - - [20/Aug/2019 12:29:40] "POST / HTTP/1.1" 200 -
+2019-08-20 12:29:41,811:INFO:131.243.229.11 - - [20/Aug/2019 12:29:41] "POST / HTTP/1.1" 200 -
+2019-08-20 12:29:42,851:INFO:131.243.229.11 - - [20/Aug/2019 12:29:42] "POST / HTTP/1.1" 200 -
+2019-08-20 12:29:43,848:INFO:131.243.229.11 - - [20/Aug/2019 12:29:43] "POST / HTTP/1.1" 200 -
+2019-08-20 12:29:46,824:INFO:131.243.229.11 - - [20/Aug/2019 12:29:46] "POST / HTTP/1.1" 200 -
+2019-08-20 12:29:47,584:INFO:131.243.229.11 - - [20/Aug/2019 12:29:47] "POST / HTTP/1.1" 200 -
+2019-08-20 12:29:48,610:INFO:131.243.229.11 - - [20/Aug/2019 12:29:48] "POST / HTTP/1.1" 200 -
+2019-08-20 12:29:50,045:INFO:131.243.229.11 - - [20/Aug/2019 12:29:50] "POST / HTTP/1.1" 200 -
+2019-08-20 12:34:33,052:INFO:131.243.229.11 - - [20/Aug/2019 12:34:33] "POST / HTTP/1.1" 200 -
+2019-08-20 12:34:33,898:INFO:131.243.229.11 - - [20/Aug/2019 12:34:33] "POST / HTTP/1.1" 200 -
+2019-08-20 12:34:35,345:INFO:131.243.229.11 - - [20/Aug/2019 12:34:35] "POST / HTTP/1.1" 200 -
+2019-08-20 12:34:36,460:INFO:131.243.229.11 - - [20/Aug/2019 12:34:36] "POST / HTTP/1.1" 200 -
+2019-08-20 12:34:39,656:INFO:131.243.229.11 - - [20/Aug/2019 12:34:39] "POST / HTTP/1.1" 200 -
+2019-08-20 12:34:40,606:INFO:131.243.229.11 - - [20/Aug/2019 12:34:40] "POST / HTTP/1.1" 200 -
+2019-08-20 12:34:42,293:INFO:131.243.229.11 - - [20/Aug/2019 12:34:42] "POST / HTTP/1.1" 200 -
+2019-08-20 12:34:46,096:INFO:131.243.229.11 - - [20/Aug/2019 12:34:46] "POST / HTTP/1.1" 200 -
+2019-08-20 12:34:47,542:INFO:131.243.229.11 - - [20/Aug/2019 12:34:47] "POST / HTTP/1.1" 200 -
+2019-08-20 12:34:48,704:INFO:131.243.229.11 - - [20/Aug/2019 12:34:48] "POST / HTTP/1.1" 200 -
+2019-08-20 12:34:50,682:INFO:131.243.229.11 - - [20/Aug/2019 12:34:50] "POST / HTTP/1.1" 200 -
+2019-08-20 12:34:52,077:INFO:131.243.229.11 - - [20/Aug/2019 12:34:52] "POST / HTTP/1.1" 200 -
+2019-08-20 12:34:53,220:INFO:131.243.229.11 - - [20/Aug/2019 12:34:53] "POST / HTTP/1.1" 200 -
+2019-08-20 12:34:56,459:INFO:131.243.229.11 - - [20/Aug/2019 12:34:56] "POST / HTTP/1.1" 200 -
+2019-08-20 12:34:57,354:INFO:131.243.229.11 - - [20/Aug/2019 12:34:57] "POST / HTTP/1.1" 200 -
+2019-08-20 12:34:58,405:INFO:131.243.229.11 - - [20/Aug/2019 12:34:58] "POST / HTTP/1.1" 200 -
+2019-08-20 12:34:59,449:INFO:131.243.229.11 - - [20/Aug/2019 12:34:59] "POST / HTTP/1.1" 200 -
+2019-08-20 12:35:02,777:INFO:131.243.229.11 - - [20/Aug/2019 12:35:02] "POST / HTTP/1.1" 200 -
+2019-08-20 12:35:03,630:INFO:131.243.229.11 - - [20/Aug/2019 12:35:03] "POST / HTTP/1.1" 200 -
+2019-08-20 12:35:04,890:INFO:131.243.229.11 - - [20/Aug/2019 12:35:04] "POST / HTTP/1.1" 200 -
+2019-08-20 12:39:39,658:INFO:131.243.229.11 - - [20/Aug/2019 12:39:39] "POST / HTTP/1.1" 200 -
+2019-08-20 12:39:40,642:INFO:131.243.229.11 - - [20/Aug/2019 12:39:40] "POST / HTTP/1.1" 200 -
+2019-08-20 12:39:43,056:INFO:131.243.229.11 - - [20/Aug/2019 12:39:43] "POST / HTTP/1.1" 200 -
+2019-08-20 12:39:44,026:INFO:131.243.229.11 - - [20/Aug/2019 12:39:44] "POST / HTTP/1.1" 200 -
+2019-08-20 12:39:47,224:INFO:131.243.229.11 - - [20/Aug/2019 12:39:47] "POST / HTTP/1.1" 200 -
+2019-08-20 12:39:48,050:INFO:131.243.229.11 - - [20/Aug/2019 12:39:48] "POST / HTTP/1.1" 200 -
+2019-08-20 12:39:49,320:INFO:131.243.229.11 - - [20/Aug/2019 12:39:49] "POST / HTTP/1.1" 200 -
+2019-08-20 12:39:50,439:INFO:131.243.229.11 - - [20/Aug/2019 12:39:50] "POST / HTTP/1.1" 200 -
+2019-08-20 12:39:53,637:INFO:131.243.229.11 - - [20/Aug/2019 12:39:53] "POST / HTTP/1.1" 200 -
+2019-08-20 12:39:54,641:INFO:131.243.229.11 - - [20/Aug/2019 12:39:54] "POST / HTTP/1.1" 200 -
+2019-08-20 12:39:55,555:INFO:131.243.229.11 - - [20/Aug/2019 12:39:55] "POST / HTTP/1.1" 200 -
+2019-08-20 12:39:56,865:INFO:131.243.229.11 - - [20/Aug/2019 12:39:56] "POST / HTTP/1.1" 200 -
+2019-08-20 12:40:00,140:INFO:131.243.229.11 - - [20/Aug/2019 12:40:00] "POST / HTTP/1.1" 200 -
+2019-08-20 12:40:01,068:INFO:131.243.229.11 - - [20/Aug/2019 12:40:01] "POST / HTTP/1.1" 200 -
+2019-08-20 12:40:02,003:INFO:131.243.229.11 - - [20/Aug/2019 12:40:02] "POST / HTTP/1.1" 200 -
+2019-08-20 12:40:03,140:INFO:131.243.229.11 - - [20/Aug/2019 12:40:03] "POST / HTTP/1.1" 200 -
+2019-08-20 12:40:06,375:INFO:131.243.229.11 - - [20/Aug/2019 12:40:06] "POST / HTTP/1.1" 200 -
+2019-08-20 12:40:07,205:INFO:131.243.229.11 - - [20/Aug/2019 12:40:07] "POST / HTTP/1.1" 200 -
+2019-08-20 12:40:08,173:INFO:131.243.229.11 - - [20/Aug/2019 12:40:08] "POST / HTTP/1.1" 200 -
+2019-08-20 12:40:09,603:INFO:131.243.229.11 - - [20/Aug/2019 12:40:09] "POST / HTTP/1.1" 200 -
+2019-08-20 12:44:42,201:INFO:131.243.229.11 - - [20/Aug/2019 12:44:42] "POST / HTTP/1.1" 200 -
+2019-08-20 12:44:43,212:INFO:131.243.229.11 - - [20/Aug/2019 12:44:43] "POST / HTTP/1.1" 200 -
+2019-08-20 12:44:44,571:INFO:131.243.229.11 - - [20/Aug/2019 12:44:44] "POST / HTTP/1.1" 200 -
+2019-08-20 12:44:47,886:INFO:131.243.229.11 - - [20/Aug/2019 12:44:47] "POST / HTTP/1.1" 200 -
+2019-08-20 12:44:48,732:INFO:131.243.229.11 - - [20/Aug/2019 12:44:48] "POST / HTTP/1.1" 200 -
+2019-08-20 12:44:49,779:INFO:131.243.229.11 - - [20/Aug/2019 12:44:49] "POST / HTTP/1.1" 200 -
+2019-08-20 12:44:51,096:INFO:131.243.229.11 - - [20/Aug/2019 12:44:51] "POST / HTTP/1.1" 200 -
+2019-08-20 12:44:54,069:INFO:131.243.229.11 - - [20/Aug/2019 12:44:54] "POST / HTTP/1.1" 200 -
+2019-08-20 12:44:55,007:INFO:131.243.229.11 - - [20/Aug/2019 12:44:55] "POST / HTTP/1.1" 200 -
+2019-08-20 12:44:56,070:INFO:131.243.229.11 - - [20/Aug/2019 12:44:56] "POST / HTTP/1.1" 200 -
+2019-08-20 12:44:57,109:INFO:131.243.229.11 - - [20/Aug/2019 12:44:57] "POST / HTTP/1.1" 200 -
+2019-08-20 12:45:00,359:INFO:131.243.229.11 - - [20/Aug/2019 12:45:00] "POST / HTTP/1.1" 200 -
+2019-08-20 12:45:01,299:INFO:131.243.229.11 - - [20/Aug/2019 12:45:01] "POST / HTTP/1.1" 200 -
+2019-08-20 12:45:02,401:INFO:131.243.229.11 - - [20/Aug/2019 12:45:02] "POST / HTTP/1.1" 200 -
+2019-08-20 12:45:03,318:INFO:131.243.229.11 - - [20/Aug/2019 12:45:03] "POST / HTTP/1.1" 200 -
+2019-08-20 12:45:06,613:INFO:131.243.229.11 - - [20/Aug/2019 12:45:06] "POST / HTTP/1.1" 200 -
+2019-08-20 12:45:07,382:INFO:131.243.229.11 - - [20/Aug/2019 12:45:07] "POST / HTTP/1.1" 200 -
+2019-08-20 12:45:08,371:INFO:131.243.229.11 - - [20/Aug/2019 12:45:08] "POST / HTTP/1.1" 200 -
+2019-08-20 12:45:09,451:INFO:131.243.229.11 - - [20/Aug/2019 12:45:09] "POST / HTTP/1.1" 200 -
+2019-08-20 12:45:13,009:INFO:131.243.229.11 - - [20/Aug/2019 12:45:13] "POST / HTTP/1.1" 200 -
+2019-08-20 12:46:48,774:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 215, in get_data
+    gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S %Z'))
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 215, in <lambda>
+    gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S %Z'))
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '2019-07-31 23:18:01' does not match format '%Y-%m-%d %H:%M:%S %Z'
+2019-08-20 12:46:48,852:INFO:127.0.0.1 - - [20/Aug/2019 12:46:48] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-20 12:48:05,705:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 12:48:08,357:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "webserver.py", line 216, in get_data
+    gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S %Z'))
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 216, in <lambda>
+    gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S %Z'))
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '2019-07-31 23:18:01' does not match format '%Y-%m-%d %H:%M:%S %Z'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 218, in get_data
+    gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 218, in <lambda>
+    gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 362, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains:  UTC
+2019-08-20 12:48:08,360:INFO:127.0.0.1 - - [20/Aug/2019 12:48:08] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-20 12:49:46,401:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 12:49:49,225:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 215, in get_data
+    gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S %Z'))
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 215, in <lambda>
+    gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S %Z'))
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '2019-07-31 23:18:01' does not match format '%Y-%m-%d %H:%M:%S %Z'
+2019-08-20 12:49:49,229:INFO:127.0.0.1 - - [20/Aug/2019 12:49:49] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-20 12:51:18,817:INFO:131.243.229.12 - - [20/Aug/2019 12:51:18] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 12:51:30,738:INFO:131.243.229.11 - - [20/Aug/2019 12:51:30] "POST / HTTP/1.1" 200 -
+2019-08-20 12:51:31,597:INFO:131.243.229.11 - - [20/Aug/2019 12:51:31] "POST / HTTP/1.1" 200 -
+2019-08-20 12:51:32,867:INFO:131.243.229.11 - - [20/Aug/2019 12:51:32] "POST / HTTP/1.1" 200 -
+2019-08-20 12:51:33,894:INFO:131.243.229.11 - - [20/Aug/2019 12:51:33] "POST / HTTP/1.1" 200 -
+2019-08-20 12:51:34,040:INFO:127.0.0.1 - - [20/Aug/2019 12:51:34] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 12:51:35,141:INFO:131.243.229.11 - - [20/Aug/2019 12:51:35] "POST / HTTP/1.1" 200 -
+2019-08-20 12:51:36,278:INFO:131.243.229.11 - - [20/Aug/2019 12:51:36] "POST / HTTP/1.1" 200 -
+2019-08-20 12:51:39,326:INFO:131.243.229.11 - - [20/Aug/2019 12:51:39] "POST / HTTP/1.1" 200 -
+2019-08-20 12:51:40,109:INFO:131.243.229.11 - - [20/Aug/2019 12:51:40] "POST / HTTP/1.1" 200 -
+2019-08-20 12:51:41,531:INFO:131.243.229.11 - - [20/Aug/2019 12:51:41] "POST / HTTP/1.1" 200 -
+2019-08-20 12:51:42,046:INFO:127.0.0.1 - - [20/Aug/2019 12:51:42] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 12:52:12,459:INFO:127.0.0.1 - - [20/Aug/2019 12:52:12] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 12:52:12,551:INFO:127.0.0.1 - - [20/Aug/2019 12:52:12] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 12:52:14,071:INFO:127.0.0.1 - - [20/Aug/2019 12:52:14] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 12:52:20,465:INFO:127.0.0.1 - - [20/Aug/2019 12:52:20] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 12:52:20,557:INFO:127.0.0.1 - - [20/Aug/2019 12:52:20] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 12:52:20,827:INFO:131.243.229.12 - - [20/Aug/2019 12:52:20] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 12:52:31,486:INFO:127.0.0.1 - - [20/Aug/2019 12:52:31] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 12:52:39,493:INFO:127.0.0.1 - - [20/Aug/2019 12:52:39] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 12:54:12,997:INFO:127.0.0.1 - - [20/Aug/2019 12:54:12] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 12:54:14,558:INFO:127.0.0.1 - - [20/Aug/2019 12:54:14] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 12:54:14,866:INFO:127.0.0.1 - - [20/Aug/2019 12:54:14] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 12:54:15,117:INFO:127.0.0.1 - - [20/Aug/2019 12:54:15] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 12:54:49,196:INFO:131.243.229.11 - - [20/Aug/2019 12:54:49] "POST / HTTP/1.1" 200 -
+2019-08-20 12:54:50,466:INFO:131.243.229.11 - - [20/Aug/2019 12:54:50] "POST / HTTP/1.1" 200 -
+2019-08-20 12:54:51,397:INFO:131.243.229.11 - - [20/Aug/2019 12:54:51] "POST / HTTP/1.1" 200 -
+2019-08-20 12:54:52,476:INFO:131.243.229.11 - - [20/Aug/2019 12:54:52] "POST / HTTP/1.1" 200 -
+2019-08-20 12:54:55,695:INFO:131.243.229.11 - - [20/Aug/2019 12:54:55] "POST / HTTP/1.1" 200 -
+2019-08-20 12:54:56,704:INFO:131.243.229.11 - - [20/Aug/2019 12:54:56] "POST / HTTP/1.1" 200 -
+2019-08-20 12:54:57,727:INFO:131.243.229.11 - - [20/Aug/2019 12:54:57] "POST / HTTP/1.1" 200 -
+2019-08-20 12:54:58,893:INFO:131.243.229.11 - - [20/Aug/2019 12:54:58] "POST / HTTP/1.1" 200 -
+2019-08-20 12:55:00,091:INFO:131.243.229.11 - - [20/Aug/2019 12:55:00] "POST / HTTP/1.1" 200 -
+2019-08-20 12:55:03,552:INFO:131.243.229.11 - - [20/Aug/2019 12:55:03] "POST / HTTP/1.1" 200 -
+2019-08-20 12:55:04,348:INFO:131.243.229.11 - - [20/Aug/2019 12:55:04] "POST / HTTP/1.1" 200 -
+2019-08-20 12:55:05,341:INFO:131.243.229.11 - - [20/Aug/2019 12:55:05] "POST / HTTP/1.1" 200 -
+2019-08-20 12:56:09,121:INFO:127.0.0.1 - - [20/Aug/2019 12:56:09] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 12:56:17,127:INFO:127.0.0.1 - - [20/Aug/2019 12:56:17] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 12:58:43,582:INFO:127.0.0.1 - - [20/Aug/2019 12:58:43] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 12:58:43,825:INFO:127.0.0.1 - - [20/Aug/2019 12:58:43] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 12:59:34,972:INFO:131.243.229.11 - - [20/Aug/2019 12:59:34] "POST / HTTP/1.1" 200 -
+2019-08-20 12:59:36,022:INFO:131.243.229.11 - - [20/Aug/2019 12:59:36] "POST / HTTP/1.1" 200 -
+2019-08-20 12:59:37,655:INFO:131.243.229.11 - - [20/Aug/2019 12:59:37] "POST / HTTP/1.1" 200 -
+2019-08-20 12:59:40,796:INFO:131.243.229.11 - - [20/Aug/2019 12:59:40] "POST / HTTP/1.1" 200 -
+2019-08-20 12:59:41,510:INFO:131.243.229.11 - - [20/Aug/2019 12:59:41] "POST / HTTP/1.1" 200 -
+2019-08-20 12:59:42,602:INFO:131.243.229.11 - - [20/Aug/2019 12:59:42] "POST / HTTP/1.1" 200 -
+2019-08-20 12:59:43,921:INFO:131.243.229.11 - - [20/Aug/2019 12:59:43] "POST / HTTP/1.1" 200 -
+2019-08-20 12:59:47,116:INFO:131.243.229.11 - - [20/Aug/2019 12:59:47] "POST / HTTP/1.1" 200 -
+2019-08-20 12:59:47,968:INFO:131.243.229.11 - - [20/Aug/2019 12:59:47] "POST / HTTP/1.1" 200 -
+2019-08-20 12:59:49,025:INFO:131.243.229.11 - - [20/Aug/2019 12:59:49] "POST / HTTP/1.1" 200 -
+2019-08-20 12:59:50,027:INFO:131.243.229.11 - - [20/Aug/2019 12:59:50] "POST / HTTP/1.1" 200 -
+2019-08-20 12:59:53,376:INFO:131.243.229.11 - - [20/Aug/2019 12:59:53] "POST / HTTP/1.1" 200 -
+2019-08-20 12:59:54,454:INFO:131.243.229.11 - - [20/Aug/2019 12:59:54] "POST / HTTP/1.1" 200 -
+2019-08-20 12:59:55,452:INFO:131.243.229.11 - - [20/Aug/2019 12:59:55] "POST / HTTP/1.1" 200 -
+2019-08-20 12:59:58,847:INFO:131.243.229.11 - - [20/Aug/2019 12:59:58] "POST / HTTP/1.1" 200 -
+2019-08-20 12:59:59,673:INFO:131.243.229.11 - - [20/Aug/2019 12:59:59] "POST / HTTP/1.1" 200 -
+2019-08-20 13:00:00,753:INFO:131.243.229.11 - - [20/Aug/2019 13:00:00] "POST / HTTP/1.1" 200 -
+2019-08-20 13:00:01,800:INFO:131.243.229.11 - - [20/Aug/2019 13:00:01] "POST / HTTP/1.1" 200 -
+2019-08-20 13:00:05,093:INFO:131.243.229.11 - - [20/Aug/2019 13:00:05] "POST / HTTP/1.1" 200 -
+2019-08-20 13:00:06,366:INFO:131.243.229.11 - - [20/Aug/2019 13:00:06] "POST / HTTP/1.1" 200 -
+2019-08-20 13:02:22,836:INFO:131.243.229.12 - - [20/Aug/2019 13:02:22] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 13:03:55,784:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 13:03:58,470:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 217, in get_data
+    gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 217, in <lambda>
+    gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '2019-07-31 23:1' does not match format '%Y-%m-%d %H:%M:%S'
+2019-08-20 13:03:58,473:INFO:127.0.0.1 - - [20/Aug/2019 13:03:58] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-20 13:04:43,708:INFO:131.243.229.11 - - [20/Aug/2019 13:04:43] "POST / HTTP/1.1" 200 -
+2019-08-20 13:04:44,800:INFO:131.243.229.11 - - [20/Aug/2019 13:04:44] "POST / HTTP/1.1" 200 -
+2019-08-20 13:04:46,327:INFO:131.243.229.11 - - [20/Aug/2019 13:04:46] "POST / HTTP/1.1" 200 -
+2019-08-20 13:04:49,564:INFO:131.243.229.11 - - [20/Aug/2019 13:04:49] "POST / HTTP/1.1" 200 -
+2019-08-20 13:04:50,528:INFO:131.243.229.11 - - [20/Aug/2019 13:04:50] "POST / HTTP/1.1" 200 -
+2019-08-20 13:04:51,462:INFO:131.243.229.11 - - [20/Aug/2019 13:04:51] "POST / HTTP/1.1" 200 -
+2019-08-20 13:04:52,899:INFO:131.243.229.11 - - [20/Aug/2019 13:04:52] "POST / HTTP/1.1" 200 -
+2019-08-20 13:04:56,031:INFO:131.243.229.11 - - [20/Aug/2019 13:04:56] "POST / HTTP/1.1" 200 -
+2019-08-20 13:04:57,121:INFO:131.243.229.11 - - [20/Aug/2019 13:04:57] "POST / HTTP/1.1" 200 -
+2019-08-20 13:04:58,198:INFO:131.243.229.11 - - [20/Aug/2019 13:04:58] "POST / HTTP/1.1" 200 -
+2019-08-20 13:05:01,405:INFO:131.243.229.11 - - [20/Aug/2019 13:05:01] "POST / HTTP/1.1" 200 -
+2019-08-20 13:05:02,592:INFO:131.243.229.11 - - [20/Aug/2019 13:05:02] "POST / HTTP/1.1" 200 -
+2019-08-20 13:05:03,537:INFO:131.243.229.11 - - [20/Aug/2019 13:05:03] "POST / HTTP/1.1" 200 -
+2019-08-20 13:05:04,637:INFO:131.243.229.11 - - [20/Aug/2019 13:05:04] "POST / HTTP/1.1" 200 -
+2019-08-20 13:05:07,816:INFO:131.243.229.11 - - [20/Aug/2019 13:05:07] "POST / HTTP/1.1" 200 -
+2019-08-20 13:05:08,783:INFO:131.243.229.11 - - [20/Aug/2019 13:05:08] "POST / HTTP/1.1" 200 -
+2019-08-20 13:05:09,800:INFO:131.243.229.11 - - [20/Aug/2019 13:05:09] "POST / HTTP/1.1" 200 -
+2019-08-20 13:05:10,764:INFO:131.243.229.11 - - [20/Aug/2019 13:05:10] "POST / HTTP/1.1" 200 -
+2019-08-20 13:05:13,966:INFO:131.243.229.11 - - [20/Aug/2019 13:05:13] "POST / HTTP/1.1" 200 -
+2019-08-20 13:05:15,014:INFO:131.243.229.11 - - [20/Aug/2019 13:05:15] "POST / HTTP/1.1" 200 -
+2019-08-20 13:07:19,235:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 13:07:23,828:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "webserver.py", line 218, in get_data
+    gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 218, in <lambda>
+    gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '2019-07-31 23:1' does not match format '%Y-%m-%d %H:%M:%S'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 228, in get_data
+    gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 228, in <lambda>
+    gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '2019-07-31 23:1' does not match format '%Y-%m-%d %H:%M:%S'
+2019-08-20 13:07:23,833:INFO:127.0.0.1 - - [20/Aug/2019 13:07:23] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-20 13:07:42,198:INFO:127.0.0.1 - - [20/Aug/2019 13:07:42] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 13:09:34,680:INFO:127.0.0.1 - - [20/Aug/2019 13:09:34] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 13:09:47,697:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 13:09:53,839:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "webserver.py", line 218, in get_data
+    temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 218, in <lambda>
+    temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '2019-07-31 23:1' does not match format '%Y-%m-%d %H:%M:%S'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 230, in get_data
+    gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 230, in <lambda>
+    gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 362, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains:  UTC
+2019-08-20 13:09:53,843:INFO:127.0.0.1 - - [20/Aug/2019 13:09:53] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-20 13:11:34,664:INFO:131.243.229.11 - - [20/Aug/2019 13:11:34] "POST / HTTP/1.1" 200 -
+2019-08-20 13:11:35,742:INFO:131.243.229.11 - - [20/Aug/2019 13:11:35] "POST / HTTP/1.1" 200 -
+2019-08-20 13:11:36,791:INFO:131.243.229.11 - - [20/Aug/2019 13:11:36] "POST / HTTP/1.1" 200 -
+2019-08-20 13:11:39,916:INFO:131.243.229.11 - - [20/Aug/2019 13:11:39] "POST / HTTP/1.1" 200 -
+2019-08-20 13:11:40,729:INFO:131.243.229.11 - - [20/Aug/2019 13:11:40] "POST / HTTP/1.1" 200 -
+2019-08-20 13:11:42,056:INFO:131.243.229.11 - - [20/Aug/2019 13:11:42] "POST / HTTP/1.1" 200 -
+2019-08-20 13:11:43,051:INFO:131.243.229.11 - - [20/Aug/2019 13:11:43] "POST / HTTP/1.1" 200 -
+2019-08-20 13:11:46,162:INFO:131.243.229.11 - - [20/Aug/2019 13:11:46] "POST / HTTP/1.1" 200 -
+2019-08-20 13:11:46,890:INFO:131.243.229.11 - - [20/Aug/2019 13:11:46] "POST / HTTP/1.1" 200 -
+2019-08-20 13:11:48,444:INFO:131.243.229.11 - - [20/Aug/2019 13:11:48] "POST / HTTP/1.1" 200 -
+2019-08-20 13:12:24,663:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 13:12:24,853:INFO:131.243.229.12 - - [20/Aug/2019 13:12:24] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 13:12:41,775:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "webserver.py", line 218, in get_data
+    temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 218, in <lambda>
+    temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '2019-07-31 23:18' does not match format '%Y-%m-%d %H:%M:%S'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 230, in get_data
+    gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 230, in <lambda>
+    gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 362, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains:  UTC
+2019-08-20 13:12:41,779:INFO:127.0.0.1 - - [20/Aug/2019 13:12:41] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-20 13:13:39,306:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 13:13:41,917:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "webserver.py", line 220, in get_data
+    temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 220, in <lambda>
+    temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '2019-07-31 23:1' does not match format '%Y-%m-%d %H:%M:%S'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 233, in get_data
+    gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 233, in <lambda>
+    gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 362, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains:  UTC
+2019-08-20 13:13:41,921:INFO:127.0.0.1 - - [20/Aug/2019 13:13:41] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-20 13:14:23,017:INFO:131.243.229.11 - - [20/Aug/2019 13:14:23] "POST / HTTP/1.1" 200 -
+2019-08-20 13:14:24,474:INFO:131.243.229.11 - - [20/Aug/2019 13:14:24] "POST / HTTP/1.1" 200 -
+2019-08-20 13:14:29,772:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 13:14:31,007:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "webserver.py", line 220, in get_data
+    temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 220, in <lambda>
+    temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '2019-07-31 23:1' does not match format '%Y-%m-%d %H:%M:%S'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 233, in get_data
+    gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 233, in <lambda>
+    gbl_tbl["Time"] = gbl_tbl["Time"].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 362, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains:  UTC
+2019-08-20 13:14:31,009:INFO:127.0.0.1 - - [20/Aug/2019 13:14:31] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-20 13:19:33,021:INFO:131.243.229.11 - - [20/Aug/2019 13:19:33] "POST / HTTP/1.1" 200 -
+2019-08-20 13:19:34,203:INFO:131.243.229.11 - - [20/Aug/2019 13:19:34] "POST / HTTP/1.1" 200 -
+2019-08-20 13:19:37,858:INFO:131.243.229.11 - - [20/Aug/2019 13:19:37] "POST / HTTP/1.1" 200 -
+2019-08-20 13:19:39,249:INFO:131.243.229.11 - - [20/Aug/2019 13:19:39] "POST / HTTP/1.1" 200 -
+2019-08-20 13:19:40,309:INFO:131.243.229.11 - - [20/Aug/2019 13:19:40] "POST / HTTP/1.1" 200 -
+2019-08-20 13:19:43,670:INFO:131.243.229.11 - - [20/Aug/2019 13:19:43] "POST / HTTP/1.1" 200 -
+2019-08-20 13:19:44,576:INFO:131.243.229.11 - - [20/Aug/2019 13:19:44] "POST / HTTP/1.1" 200 -
+2019-08-20 13:19:45,774:INFO:131.243.229.11 - - [20/Aug/2019 13:19:45] "POST / HTTP/1.1" 200 -
+2019-08-20 13:19:46,916:INFO:131.243.229.11 - - [20/Aug/2019 13:19:46] "POST / HTTP/1.1" 200 -
+2019-08-20 13:19:48,862:INFO:131.243.229.11 - - [20/Aug/2019 13:19:48] "POST / HTTP/1.1" 200 -
+2019-08-20 13:19:50,272:INFO:131.243.229.11 - - [20/Aug/2019 13:19:50] "POST / HTTP/1.1" 200 -
+2019-08-20 13:19:53,934:INFO:131.243.229.11 - - [20/Aug/2019 13:19:53] "POST / HTTP/1.1" 200 -
+2019-08-20 13:19:54,982:INFO:131.243.229.11 - - [20/Aug/2019 13:19:54] "POST / HTTP/1.1" 200 -
+2019-08-20 13:19:55,983:INFO:131.243.229.11 - - [20/Aug/2019 13:19:55] "POST / HTTP/1.1" 200 -
+2019-08-20 13:19:56,078:INFO:127.0.0.1 - - [20/Aug/2019 13:19:56] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 13:19:56,944:INFO:131.243.229.11 - - [20/Aug/2019 13:19:56] "POST / HTTP/1.1" 200 -
+2019-08-20 13:19:59,913:INFO:131.243.229.11 - - [20/Aug/2019 13:19:59] "POST / HTTP/1.1" 200 -
+2019-08-20 13:20:01,275:INFO:131.243.229.11 - - [20/Aug/2019 13:20:01] "POST / HTTP/1.1" 200 -
+2019-08-20 13:20:02,376:INFO:131.243.229.11 - - [20/Aug/2019 13:20:02] "POST / HTTP/1.1" 200 -
+2019-08-20 13:20:03,147:INFO:131.243.229.11 - - [20/Aug/2019 13:20:03] "POST / HTTP/1.1" 200 -
+2019-08-20 13:20:06,300:INFO:131.243.229.11 - - [20/Aug/2019 13:20:06] "POST / HTTP/1.1" 200 -
+2019-08-20 13:20:07,302:INFO:131.243.229.11 - - [20/Aug/2019 13:20:07] "POST / HTTP/1.1" 200 -
+2019-08-20 13:20:08,462:INFO:131.243.229.11 - - [20/Aug/2019 13:20:08] "POST / HTTP/1.1" 200 -
+2019-08-20 13:20:11,760:INFO:131.243.229.11 - - [20/Aug/2019 13:20:11] "POST / HTTP/1.1" 200 -
+2019-08-20 13:20:12,637:INFO:131.243.229.11 - - [20/Aug/2019 13:20:12] "POST / HTTP/1.1" 200 -
+2019-08-20 13:20:13,620:INFO:131.243.229.11 - - [20/Aug/2019 13:20:13] "POST / HTTP/1.1" 200 -
+2019-08-20 13:20:14,540:INFO:131.243.229.11 - - [20/Aug/2019 13:20:14] "POST / HTTP/1.1" 200 -
+2019-08-20 13:20:17,852:INFO:131.243.229.11 - - [20/Aug/2019 13:20:17] "POST / HTTP/1.1" 200 -
+2019-08-20 13:22:26,874:INFO:131.243.229.12 - - [20/Aug/2019 13:22:26] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 13:24:27,700:INFO:131.243.229.11 - - [20/Aug/2019 13:24:27] "POST / HTTP/1.1" 200 -
+2019-08-20 13:24:28,460:INFO:131.243.229.11 - - [20/Aug/2019 13:24:28] "POST / HTTP/1.1" 200 -
+2019-08-20 13:24:29,949:INFO:131.243.229.11 - - [20/Aug/2019 13:24:29] "POST / HTTP/1.1" 200 -
+2019-08-20 13:24:31,023:INFO:131.243.229.11 - - [20/Aug/2019 13:24:31] "POST / HTTP/1.1" 200 -
+2019-08-20 13:24:34,059:INFO:131.243.229.11 - - [20/Aug/2019 13:24:34] "POST / HTTP/1.1" 200 -
+2019-08-20 13:24:34,942:INFO:131.243.229.11 - - [20/Aug/2019 13:24:34] "POST / HTTP/1.1" 200 -
+2019-08-20 13:24:36,213:INFO:131.243.229.11 - - [20/Aug/2019 13:24:36] "POST / HTTP/1.1" 200 -
+2019-08-20 13:24:37,292:INFO:131.243.229.11 - - [20/Aug/2019 13:24:37] "POST / HTTP/1.1" 200 -
+2019-08-20 13:24:40,433:INFO:131.243.229.11 - - [20/Aug/2019 13:24:40] "POST / HTTP/1.1" 200 -
+2019-08-20 13:24:41,375:INFO:131.243.229.11 - - [20/Aug/2019 13:24:41] "POST / HTTP/1.1" 200 -
+2019-08-20 13:24:42,775:INFO:131.243.229.11 - - [20/Aug/2019 13:24:42] "POST / HTTP/1.1" 200 -
+2019-08-20 13:24:44,475:INFO:131.243.229.11 - - [20/Aug/2019 13:24:44] "POST / HTTP/1.1" 200 -
+2019-08-20 13:24:48,003:INFO:131.243.229.11 - - [20/Aug/2019 13:24:48] "POST / HTTP/1.1" 200 -
+2019-08-20 13:24:48,993:INFO:131.243.229.11 - - [20/Aug/2019 13:24:48] "POST / HTTP/1.1" 200 -
+2019-08-20 13:24:50,222:INFO:131.243.229.11 - - [20/Aug/2019 13:24:50] "POST / HTTP/1.1" 200 -
+2019-08-20 13:24:51,280:INFO:131.243.229.11 - - [20/Aug/2019 13:24:51] "POST / HTTP/1.1" 200 -
+2019-08-20 13:24:52,315:INFO:131.243.229.11 - - [20/Aug/2019 13:24:52] "POST / HTTP/1.1" 200 -
+2019-08-20 13:24:53,458:INFO:131.243.229.11 - - [20/Aug/2019 13:24:53] "POST / HTTP/1.1" 200 -
+2019-08-20 13:24:55,183:INFO:131.243.229.11 - - [20/Aug/2019 13:24:55] "POST / HTTP/1.1" 200 -
+2019-08-20 13:29:34,553:INFO:131.243.229.11 - - [20/Aug/2019 13:29:34] "POST / HTTP/1.1" 200 -
+2019-08-20 13:29:35,531:INFO:131.243.229.11 - - [20/Aug/2019 13:29:35] "POST / HTTP/1.1" 200 -
+2019-08-20 13:29:36,920:INFO:131.243.229.11 - - [20/Aug/2019 13:29:36] "POST / HTTP/1.1" 200 -
+2019-08-20 13:29:40,021:INFO:131.243.229.11 - - [20/Aug/2019 13:29:40] "POST / HTTP/1.1" 200 -
+2019-08-20 13:29:40,898:INFO:131.243.229.11 - - [20/Aug/2019 13:29:40] "POST / HTTP/1.1" 200 -
+2019-08-20 13:29:42,308:INFO:131.243.229.11 - - [20/Aug/2019 13:29:42] "POST / HTTP/1.1" 200 -
+2019-08-20 13:29:44,011:INFO:131.243.229.11 - - [20/Aug/2019 13:29:44] "POST / HTTP/1.1" 200 -
+2019-08-20 13:29:47,182:INFO:131.243.229.11 - - [20/Aug/2019 13:29:47] "POST / HTTP/1.1" 200 -
+2019-08-20 13:29:48,345:INFO:131.243.229.11 - - [20/Aug/2019 13:29:48] "POST / HTTP/1.1" 200 -
+2019-08-20 13:29:49,773:INFO:131.243.229.11 - - [20/Aug/2019 13:29:49] "POST / HTTP/1.1" 200 -
+2019-08-20 13:29:50,855:INFO:131.243.229.11 - - [20/Aug/2019 13:29:50] "POST / HTTP/1.1" 200 -
+2019-08-20 13:29:54,256:INFO:131.243.229.11 - - [20/Aug/2019 13:29:54] "POST / HTTP/1.1" 200 -
+2019-08-20 13:29:55,117:INFO:131.243.229.11 - - [20/Aug/2019 13:29:55] "POST / HTTP/1.1" 200 -
+2019-08-20 13:29:56,085:INFO:131.243.229.11 - - [20/Aug/2019 13:29:56] "POST / HTTP/1.1" 200 -
+2019-08-20 13:29:57,106:INFO:131.243.229.11 - - [20/Aug/2019 13:29:57] "POST / HTTP/1.1" 200 -
+2019-08-20 13:30:00,210:INFO:131.243.229.11 - - [20/Aug/2019 13:30:00] "POST / HTTP/1.1" 200 -
+2019-08-20 13:30:01,091:INFO:131.243.229.11 - - [20/Aug/2019 13:30:01] "POST / HTTP/1.1" 200 -
+2019-08-20 13:30:02,181:INFO:131.243.229.11 - - [20/Aug/2019 13:30:02] "POST / HTTP/1.1" 200 -
+2019-08-20 13:30:03,203:INFO:131.243.229.11 - - [20/Aug/2019 13:30:03] "POST / HTTP/1.1" 200 -
+2019-08-20 13:30:06,686:INFO:131.243.229.11 - - [20/Aug/2019 13:30:06] "POST / HTTP/1.1" 200 -
+2019-08-20 13:32:28,885:INFO:131.243.229.12 - - [20/Aug/2019 13:32:28] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 13:34:43,729:INFO:131.243.229.11 - - [20/Aug/2019 13:34:43] "POST / HTTP/1.1" 200 -
+2019-08-20 13:34:44,955:INFO:131.243.229.11 - - [20/Aug/2019 13:34:44] "POST / HTTP/1.1" 200 -
+2019-08-20 13:34:46,969:INFO:131.243.229.11 - - [20/Aug/2019 13:34:46] "POST / HTTP/1.1" 200 -
+2019-08-20 13:34:50,051:INFO:131.243.229.11 - - [20/Aug/2019 13:34:50] "POST / HTTP/1.1" 200 -
+2019-08-20 13:34:51,110:INFO:131.243.229.11 - - [20/Aug/2019 13:34:51] "POST / HTTP/1.1" 200 -
+2019-08-20 13:34:52,057:INFO:131.243.229.11 - - [20/Aug/2019 13:34:52] "POST / HTTP/1.1" 200 -
+2019-08-20 13:34:53,490:INFO:131.243.229.11 - - [20/Aug/2019 13:34:53] "POST / HTTP/1.1" 200 -
+2019-08-20 13:34:56,456:INFO:131.243.229.11 - - [20/Aug/2019 13:34:56] "POST / HTTP/1.1" 200 -
+2019-08-20 13:34:57,389:INFO:131.243.229.11 - - [20/Aug/2019 13:34:57] "POST / HTTP/1.1" 200 -
+2019-08-20 13:34:58,474:INFO:131.243.229.11 - - [20/Aug/2019 13:34:58] "POST / HTTP/1.1" 200 -
+2019-08-20 13:34:59,525:INFO:131.243.229.11 - - [20/Aug/2019 13:34:59] "POST / HTTP/1.1" 200 -
+2019-08-20 13:35:03,023:INFO:131.243.229.11 - - [20/Aug/2019 13:35:03] "POST / HTTP/1.1" 200 -
+2019-08-20 13:35:03,901:INFO:131.243.229.11 - - [20/Aug/2019 13:35:03] "POST / HTTP/1.1" 200 -
+2019-08-20 13:35:04,852:INFO:131.243.229.11 - - [20/Aug/2019 13:35:04] "POST / HTTP/1.1" 200 -
+2019-08-20 13:35:06,055:INFO:131.243.229.11 - - [20/Aug/2019 13:35:06] "POST / HTTP/1.1" 200 -
+2019-08-20 13:35:09,368:INFO:131.243.229.11 - - [20/Aug/2019 13:35:09] "POST / HTTP/1.1" 200 -
+2019-08-20 13:35:10,322:INFO:131.243.229.11 - - [20/Aug/2019 13:35:10] "POST / HTTP/1.1" 200 -
+2019-08-20 13:35:11,326:INFO:131.243.229.11 - - [20/Aug/2019 13:35:11] "POST / HTTP/1.1" 200 -
+2019-08-20 13:35:12,643:INFO:131.243.229.11 - - [20/Aug/2019 13:35:12] "POST / HTTP/1.1" 200 -
+2019-08-20 13:44:14,047:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 13:44:21,587:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 219, in get_data
+    temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 219, in <lambda>
+    temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 362, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains:  UTC
+2019-08-20 13:44:21,592:INFO:127.0.0.1 - - [20/Aug/2019 13:44:21] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-20 13:44:23,395:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 219, in get_data
+    temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 219, in <lambda>
+    temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 362, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains:  UTC
+2019-08-20 13:44:23,395:INFO:127.0.0.1 - - [20/Aug/2019 13:44:23] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-20 13:44:35,229:INFO:131.243.229.11 - - [20/Aug/2019 13:44:35] "POST / HTTP/1.1" 200 -
+2019-08-20 13:44:36,087:INFO:131.243.229.11 - - [20/Aug/2019 13:44:36] "POST / HTTP/1.1" 200 -
+2019-08-20 13:44:36,863:INFO:131.243.229.11 - - [20/Aug/2019 13:44:36] "POST / HTTP/1.1" 200 -
+2019-08-20 13:44:38,608:INFO:131.243.229.11 - - [20/Aug/2019 13:44:38] "POST / HTTP/1.1" 200 -
+2019-08-20 13:44:39,716:INFO:131.243.229.11 - - [20/Aug/2019 13:44:39] "POST / HTTP/1.1" 200 -
+2019-08-20 13:44:43,866:INFO:131.243.229.11 - - [20/Aug/2019 13:44:43] "POST / HTTP/1.1" 200 -
+2019-08-20 13:44:44,540:INFO:131.243.229.11 - - [20/Aug/2019 13:44:44] "POST / HTTP/1.1" 200 -
+2019-08-20 13:44:45,604:INFO:131.243.229.11 - - [20/Aug/2019 13:44:45] "POST / HTTP/1.1" 200 -
+2019-08-20 13:44:46,475:INFO:131.243.229.11 - - [20/Aug/2019 13:44:46] "POST / HTTP/1.1" 200 -
+2019-08-20 13:44:49,738:INFO:131.243.229.11 - - [20/Aug/2019 13:44:49] "POST / HTTP/1.1" 200 -
+2019-08-20 13:44:50,437:INFO:131.243.229.11 - - [20/Aug/2019 13:44:50] "POST / HTTP/1.1" 200 -
+2019-08-20 13:44:51,777:INFO:131.243.229.11 - - [20/Aug/2019 13:44:51] "POST / HTTP/1.1" 200 -
+2019-08-20 13:44:53,026:INFO:131.243.229.11 - - [20/Aug/2019 13:44:53] "POST / HTTP/1.1" 200 -
+2019-08-20 13:44:56,195:INFO:131.243.229.11 - - [20/Aug/2019 13:44:56] "POST / HTTP/1.1" 200 -
+2019-08-20 13:44:56,993:INFO:131.243.229.11 - - [20/Aug/2019 13:44:56] "POST / HTTP/1.1" 200 -
+2019-08-20 13:44:58,090:INFO:131.243.229.11 - - [20/Aug/2019 13:44:58] "POST / HTTP/1.1" 200 -
+2019-08-20 13:44:59,043:INFO:131.243.229.11 - - [20/Aug/2019 13:44:59] "POST / HTTP/1.1" 200 -
+2019-08-20 13:45:02,040:INFO:131.243.229.11 - - [20/Aug/2019 13:45:02] "POST / HTTP/1.1" 200 -
+2019-08-20 13:45:02,924:INFO:131.243.229.11 - - [20/Aug/2019 13:45:02] "POST / HTTP/1.1" 200 -
+2019-08-20 13:45:03,943:INFO:131.243.229.11 - - [20/Aug/2019 13:45:03] "POST / HTTP/1.1" 200 -
+2019-08-20 13:45:04,703:INFO:131.243.229.11 - - [20/Aug/2019 13:45:04] "POST / HTTP/1.1" 200 -
+2019-08-20 13:45:08,097:INFO:131.243.229.11 - - [20/Aug/2019 13:45:08] "POST / HTTP/1.1" 200 -
+2019-08-20 13:45:09,328:INFO:131.243.229.11 - - [20/Aug/2019 13:45:09] "POST / HTTP/1.1" 200 -
+2019-08-20 13:45:10,311:INFO:131.243.229.11 - - [20/Aug/2019 13:45:10] "POST / HTTP/1.1" 200 -
+2019-08-20 13:45:11,167:INFO:131.243.229.11 - - [20/Aug/2019 13:45:11] "POST / HTTP/1.1" 200 -
+2019-08-20 13:45:25,943:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 13:45:36,841:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 221, in get_data
+    temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 221, in <lambda>
+    temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 362, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains:  UTC
+2019-08-20 13:45:36,845:INFO:127.0.0.1 - - [20/Aug/2019 13:45:36] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-20 13:46:34,479:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 221, in get_data
+    print(temp_series)
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 221, in <lambda>
+    print(temp_series)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 362, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains:  UTC
+2019-08-20 13:46:34,479:INFO:127.0.0.1 - - [20/Aug/2019 13:46:34] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-20 13:46:56,241:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 221, in get_data
+    print(temp_series)
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 221, in <lambda>
+    print(temp_series)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 362, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains:  UTC
+2019-08-20 13:46:56,242:INFO:127.0.0.1 - - [20/Aug/2019 13:46:56] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-20 13:47:20,806:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 13:47:21,801:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 222, in get_data
+    temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 222, in <lambda>
+    temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 362, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains:  UTC
+2019-08-20 13:47:21,805:INFO:127.0.0.1 - - [20/Aug/2019 13:47:21] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-20 13:49:09,126:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 13:49:11,520:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 220, in get_data
+    temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 220, in <lambda>
+    temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 362, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains:  UTC
+2019-08-20 13:49:11,523:INFO:127.0.0.1 - - [20/Aug/2019 13:49:11] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-20 13:49:42,242:INFO:131.243.229.11 - - [20/Aug/2019 13:49:42] "POST / HTTP/1.1" 200 -
+2019-08-20 13:49:43,252:INFO:131.243.229.11 - - [20/Aug/2019 13:49:43] "POST / HTTP/1.1" 200 -
+2019-08-20 13:49:44,727:INFO:131.243.229.11 - - [20/Aug/2019 13:49:44] "POST / HTTP/1.1" 200 -
+2019-08-20 13:49:47,869:INFO:131.243.229.11 - - [20/Aug/2019 13:49:47] "POST / HTTP/1.1" 200 -
+2019-08-20 13:49:48,758:INFO:131.243.229.11 - - [20/Aug/2019 13:49:48] "POST / HTTP/1.1" 200 -
+2019-08-20 13:49:49,827:INFO:131.243.229.11 - - [20/Aug/2019 13:49:49] "POST / HTTP/1.1" 200 -
+2019-08-20 13:49:51,248:INFO:131.243.229.11 - - [20/Aug/2019 13:49:51] "POST / HTTP/1.1" 200 -
+2019-08-20 13:49:54,168:INFO:131.243.229.11 - - [20/Aug/2019 13:49:54] "POST / HTTP/1.1" 200 -
+2019-08-20 13:49:55,007:INFO:131.243.229.11 - - [20/Aug/2019 13:49:55] "POST / HTTP/1.1" 200 -
+2019-08-20 13:49:55,941:INFO:131.243.229.11 - - [20/Aug/2019 13:49:55] "POST / HTTP/1.1" 200 -
+2019-08-20 13:49:56,991:INFO:131.243.229.11 - - [20/Aug/2019 13:49:56] "POST / HTTP/1.1" 200 -
+2019-08-20 13:50:00,718:INFO:131.243.229.11 - - [20/Aug/2019 13:50:00] "POST / HTTP/1.1" 200 -
+2019-08-20 13:50:01,644:INFO:131.243.229.11 - - [20/Aug/2019 13:50:01] "POST / HTTP/1.1" 200 -
+2019-08-20 13:50:02,756:INFO:131.243.229.11 - - [20/Aug/2019 13:50:02] "POST / HTTP/1.1" 200 -
+2019-08-20 13:50:03,589:INFO:131.243.229.11 - - [20/Aug/2019 13:50:03] "POST / HTTP/1.1" 200 -
+2019-08-20 13:50:06,807:INFO:131.243.229.11 - - [20/Aug/2019 13:50:06] "POST / HTTP/1.1" 200 -
+2019-08-20 13:50:07,449:INFO:131.243.229.11 - - [20/Aug/2019 13:50:07] "POST / HTTP/1.1" 200 -
+2019-08-20 13:50:08,736:INFO:131.243.229.11 - - [20/Aug/2019 13:50:08] "POST / HTTP/1.1" 200 -
+2019-08-20 13:50:09,704:INFO:131.243.229.11 - - [20/Aug/2019 13:50:09] "POST / HTTP/1.1" 200 -
+2019-08-20 13:50:12,943:INFO:131.243.229.11 - - [20/Aug/2019 13:50:12] "POST / HTTP/1.1" 200 -
+2019-08-20 13:50:13,773:INFO:131.243.229.11 - - [20/Aug/2019 13:50:13] "POST / HTTP/1.1" 200 -
+2019-08-20 13:50:14,957:INFO:131.243.229.11 - - [20/Aug/2019 13:50:14] "POST / HTTP/1.1" 200 -
+2019-08-20 13:50:15,877:INFO:131.243.229.11 - - [20/Aug/2019 13:50:15] "POST / HTTP/1.1" 200 -
+2019-08-20 13:50:18,961:INFO:131.243.229.11 - - [20/Aug/2019 13:50:18] "POST / HTTP/1.1" 200 -
+2019-08-20 13:50:19,770:INFO:131.243.229.11 - - [20/Aug/2019 13:50:19] "POST / HTTP/1.1" 200 -
+2019-08-20 13:50:22,096:INFO:131.243.229.11 - - [20/Aug/2019 13:50:22] "POST / HTTP/1.1" 200 -
+2019-08-20 13:50:23,208:INFO:131.243.229.11 - - [20/Aug/2019 13:50:23] "POST / HTTP/1.1" 200 -
+2019-08-20 13:52:17,095:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 13:52:29,577:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 220, in get_data
+    temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 220, in <lambda>
+    temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 362, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains:  UTC
+2019-08-20 13:52:29,580:INFO:127.0.0.1 - - [20/Aug/2019 13:52:29] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-20 13:54:15,984:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 13:54:17,658:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 221, in get_data
+    temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 221, in <lambda>
+    temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 362, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains:  UTC
+2019-08-20 13:54:17,661:INFO:127.0.0.1 - - [20/Aug/2019 13:54:17] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-20 13:56:45,458:INFO:131.243.229.11 - - [20/Aug/2019 13:56:45] "POST / HTTP/1.1" 200 -
+2019-08-20 13:56:46,280:INFO:131.243.229.11 - - [20/Aug/2019 13:56:46] "POST / HTTP/1.1" 200 -
+2019-08-20 13:56:47,232:INFO:131.243.229.11 - - [20/Aug/2019 13:56:47] "POST / HTTP/1.1" 200 -
+2019-08-20 13:56:48,214:INFO:131.243.229.11 - - [20/Aug/2019 13:56:48] "POST / HTTP/1.1" 200 -
+2019-08-20 13:56:49,406:INFO:131.243.229.11 - - [20/Aug/2019 13:56:49] "POST / HTTP/1.1" 200 -
+2019-08-20 13:56:50,921:INFO:131.243.229.11 - - [20/Aug/2019 13:56:50] "POST / HTTP/1.1" 200 -
+2019-08-20 13:57:36,295:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 13:57:36,773:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 221, in get_data
+    temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 221, in <lambda>
+    temp_series = temp_series.apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'))
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\thoma\Anaconda3\lib\_strptime.py", line 362, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains:  UTC
+2019-08-20 13:57:36,779:INFO:127.0.0.1 - - [20/Aug/2019 13:57:36] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-20 13:59:35,354:INFO:131.243.229.11 - - [20/Aug/2019 13:59:35] "POST / HTTP/1.1" 200 -
+2019-08-20 13:59:36,711:INFO:131.243.229.11 - - [20/Aug/2019 13:59:36] "POST / HTTP/1.1" 200 -
+2019-08-20 13:59:38,307:INFO:131.243.229.11 - - [20/Aug/2019 13:59:38] "POST / HTTP/1.1" 200 -
+2019-08-20 13:59:41,949:INFO:131.243.229.11 - - [20/Aug/2019 13:59:41] "POST / HTTP/1.1" 200 -
+2019-08-20 13:59:42,886:INFO:131.243.229.11 - - [20/Aug/2019 13:59:42] "POST / HTTP/1.1" 200 -
+2019-08-20 13:59:44,519:INFO:131.243.229.11 - - [20/Aug/2019 13:59:44] "POST / HTTP/1.1" 200 -
+2019-08-20 13:59:46,031:INFO:131.243.229.11 - - [20/Aug/2019 13:59:46] "POST / HTTP/1.1" 200 -
+2019-08-20 13:59:49,746:INFO:131.243.229.11 - - [20/Aug/2019 13:59:49] "POST / HTTP/1.1" 200 -
+2019-08-20 13:59:50,497:INFO:131.243.229.11 - - [20/Aug/2019 13:59:50] "POST / HTTP/1.1" 200 -
+2019-08-20 13:59:51,905:INFO:131.243.229.11 - - [20/Aug/2019 13:59:51] "POST / HTTP/1.1" 200 -
+2019-08-20 13:59:52,832:INFO:131.243.229.11 - - [20/Aug/2019 13:59:52] "POST / HTTP/1.1" 200 -
+2019-08-20 13:59:54,321:INFO:131.243.229.11 - - [20/Aug/2019 13:59:54] "POST / HTTP/1.1" 200 -
+2019-08-20 13:59:55,602:INFO:131.243.229.11 - - [20/Aug/2019 13:59:55] "POST / HTTP/1.1" 200 -
+2019-08-20 13:59:58,557:INFO:131.243.229.11 - - [20/Aug/2019 13:59:58] "POST / HTTP/1.1" 200 -
+2019-08-20 13:59:59,302:INFO:131.243.229.11 - - [20/Aug/2019 13:59:59] "POST / HTTP/1.1" 200 -
+2019-08-20 14:02:44,914:INFO:131.243.229.12 - - [20/Aug/2019 14:02:44] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:04:47,218:INFO:131.243.229.11 - - [20/Aug/2019 14:04:47] "POST / HTTP/1.1" 200 -
+2019-08-20 14:04:48,484:INFO:131.243.229.11 - - [20/Aug/2019 14:04:48] "POST / HTTP/1.1" 200 -
+2019-08-20 14:04:50,410:INFO:131.243.229.11 - - [20/Aug/2019 14:04:50] "POST / HTTP/1.1" 200 -
+2019-08-20 14:04:53,652:INFO:131.243.229.11 - - [20/Aug/2019 14:04:53] "POST / HTTP/1.1" 200 -
+2019-08-20 14:04:54,427:INFO:131.243.229.11 - - [20/Aug/2019 14:04:54] "POST / HTTP/1.1" 200 -
+2019-08-20 14:04:55,359:INFO:131.243.229.11 - - [20/Aug/2019 14:04:55] "POST / HTTP/1.1" 200 -
+2019-08-20 14:04:56,713:INFO:131.243.229.11 - - [20/Aug/2019 14:04:56] "POST / HTTP/1.1" 200 -
+2019-08-20 14:04:59,895:INFO:131.243.229.11 - - [20/Aug/2019 14:04:59] "POST / HTTP/1.1" 200 -
+2019-08-20 14:05:00,700:INFO:131.243.229.11 - - [20/Aug/2019 14:05:00] "POST / HTTP/1.1" 200 -
+2019-08-20 14:05:01,836:INFO:131.243.229.11 - - [20/Aug/2019 14:05:01] "POST / HTTP/1.1" 200 -
+2019-08-20 14:05:02,767:INFO:131.243.229.11 - - [20/Aug/2019 14:05:02] "POST / HTTP/1.1" 200 -
+2019-08-20 14:05:06,200:INFO:131.243.229.11 - - [20/Aug/2019 14:05:06] "POST / HTTP/1.1" 200 -
+2019-08-20 14:05:06,999:INFO:131.243.229.11 - - [20/Aug/2019 14:05:06] "POST / HTTP/1.1" 200 -
+2019-08-20 14:05:07,962:INFO:131.243.229.11 - - [20/Aug/2019 14:05:07] "POST / HTTP/1.1" 200 -
+2019-08-20 14:05:08,976:INFO:131.243.229.11 - - [20/Aug/2019 14:05:08] "POST / HTTP/1.1" 200 -
+2019-08-20 14:05:12,107:INFO:131.243.229.11 - - [20/Aug/2019 14:05:12] "POST / HTTP/1.1" 200 -
+2019-08-20 14:05:12,915:INFO:131.243.229.11 - - [20/Aug/2019 14:05:12] "POST / HTTP/1.1" 200 -
+2019-08-20 14:05:14,089:INFO:131.243.229.11 - - [20/Aug/2019 14:05:14] "POST / HTTP/1.1" 200 -
+2019-08-20 14:05:15,569:INFO:131.243.229.11 - - [20/Aug/2019 14:05:15] "POST / HTTP/1.1" 200 -
+2019-08-20 14:07:30,880:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 14:07:35,625:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 227, in get_data
+    gbl_tbl['Time'] = gbl_tbl['Time'].apply(x.strftime('%Y-%m-%d %H:%M:%S'))
+NameError: name 'x' is not defined
+2019-08-20 14:07:35,626:INFO:127.0.0.1 - - [20/Aug/2019 14:07:35] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-20 14:08:39,588:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 14:08:39,808:INFO:131.243.229.12 - - [20/Aug/2019 14:08:39] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:08:41,504:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2657, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'time'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 225, in get_data
+    gbl_tbl['Time'] = gbl_tbl['time'].str.cat(time_zones, sep=' ')
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2927, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2659, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'time'
+2019-08-20 14:08:41,549:INFO:127.0.0.1 - - [20/Aug/2019 14:08:41] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-20 14:09:15,785:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 14:09:20,009:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\strings.py", line 2207, in cat
+    ignore_index=(join is None))
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\strings.py", line 2044, in _get_series_list
+    return ([Series(others, index=idx)], False)
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 249, in __init__
+    .format(val=len(data), ind=len(index)))
+ValueError: Length of passed values is 96, index implies 63
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 225, in get_data
+    gbl_tbl['Time'] = gbl_tbl['Time'].str.cat(time_zones, sep=' ')
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\strings.py", line 2210, in cat
+    raise ValueError('All arrays must be same length, except '
+ValueError: All arrays must be same length, except those having an index if `join` is not None
+2019-08-20 14:09:20,042:INFO:127.0.0.1 - - [20/Aug/2019 14:09:20] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-20 14:09:30,490:INFO:131.243.229.11 - - [20/Aug/2019 14:09:30] "POST / HTTP/1.1" 200 -
+2019-08-20 14:09:31,477:INFO:131.243.229.11 - - [20/Aug/2019 14:09:31] "POST / HTTP/1.1" 200 -
+2019-08-20 14:09:33,247:INFO:131.243.229.11 - - [20/Aug/2019 14:09:33] "POST / HTTP/1.1" 200 -
+2019-08-20 14:09:34,527:INFO:131.243.229.11 - - [20/Aug/2019 14:09:34] "POST / HTTP/1.1" 200 -
+2019-08-20 14:09:37,716:INFO:131.243.229.11 - - [20/Aug/2019 14:09:37] "POST / HTTP/1.1" 200 -
+2019-08-20 14:09:38,538:INFO:131.243.229.11 - - [20/Aug/2019 14:09:38] "POST / HTTP/1.1" 200 -
+2019-08-20 14:09:39,830:INFO:131.243.229.11 - - [20/Aug/2019 14:09:39] "POST / HTTP/1.1" 200 -
+2019-08-20 14:09:40,929:INFO:131.243.229.11 - - [20/Aug/2019 14:09:40] "POST / HTTP/1.1" 200 -
+2019-08-20 14:09:44,249:INFO:131.243.229.11 - - [20/Aug/2019 14:09:44] "POST / HTTP/1.1" 200 -
+2019-08-20 14:09:45,188:INFO:131.243.229.11 - - [20/Aug/2019 14:09:45] "POST / HTTP/1.1" 200 -
+2019-08-20 14:09:46,145:INFO:131.243.229.11 - - [20/Aug/2019 14:09:46] "POST / HTTP/1.1" 200 -
+2019-08-20 14:09:47,684:INFO:131.243.229.11 - - [20/Aug/2019 14:09:47] "POST / HTTP/1.1" 200 -
+2019-08-20 14:09:50,669:INFO:131.243.229.11 - - [20/Aug/2019 14:09:50] "POST / HTTP/1.1" 200 -
+2019-08-20 14:09:51,590:INFO:131.243.229.11 - - [20/Aug/2019 14:09:51] "POST / HTTP/1.1" 200 -
+2019-08-20 14:09:52,688:INFO:131.243.229.11 - - [20/Aug/2019 14:09:52] "POST / HTTP/1.1" 200 -
+2019-08-20 14:09:53,809:INFO:131.243.229.11 - - [20/Aug/2019 14:09:53] "POST / HTTP/1.1" 200 -
+2019-08-20 14:09:56,726:INFO:131.243.229.11 - - [20/Aug/2019 14:09:56] "POST / HTTP/1.1" 200 -
+2019-08-20 14:09:57,588:INFO:131.243.229.11 - - [20/Aug/2019 14:09:57] "POST / HTTP/1.1" 200 -
+2019-08-20 14:09:58,556:INFO:131.243.229.11 - - [20/Aug/2019 14:09:58] "POST / HTTP/1.1" 200 -
+2019-08-20 14:10:00,041:INFO:131.243.229.11 - - [20/Aug/2019 14:10:00] "POST / HTTP/1.1" 200 -
+2019-08-20 14:11:28,869:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 14:11:33,641:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 223, in get_data
+    gbl_tbl['Time'].apply(lambda x: time_zones.append('') if bool(re.search(r'[0-9]', x[-1:])) else time_zones.append(x[-3:]))
+  File "C:\Users\thoma\Anaconda3\lib\site-packages\pandas\core\series.py", line 3591, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2217, in pandas._libs.lib.map_infer
+  File "webserver.py", line 223, in <lambda>
+    gbl_tbl['Time'].apply(lambda x: time_zones.append('') if bool(re.search(r'[0-9]', x[-1:])) else time_zones.append(x[-3:]))
+TypeError: 'Timestamp' object is not subscriptable
+2019-08-20 14:11:33,643:INFO:127.0.0.1 - - [20/Aug/2019 14:11:33] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-20 14:12:28,921:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 14:12:34,464:INFO:127.0.0.1 - - [20/Aug/2019 14:12:34] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-20 14:14:49,800:INFO:131.243.229.11 - - [20/Aug/2019 14:14:49] "POST / HTTP/1.1" 200 -
+2019-08-20 14:14:50,616:INFO:131.243.229.11 - - [20/Aug/2019 14:14:50] "POST / HTTP/1.1" 200 -
+2019-08-20 14:14:51,927:INFO:131.243.229.11 - - [20/Aug/2019 14:14:51] "POST / HTTP/1.1" 200 -
+2019-08-20 14:14:52,951:INFO:131.243.229.11 - - [20/Aug/2019 14:14:52] "POST / HTTP/1.1" 200 -
+2019-08-20 14:14:56,134:INFO:131.243.229.11 - - [20/Aug/2019 14:14:56] "POST / HTTP/1.1" 200 -
+2019-08-20 14:14:56,940:INFO:131.243.229.11 - - [20/Aug/2019 14:14:56] "POST / HTTP/1.1" 200 -
+2019-08-20 14:14:58,400:INFO:131.243.229.11 - - [20/Aug/2019 14:14:58] "POST / HTTP/1.1" 200 -
+2019-08-20 14:14:59,453:INFO:131.243.229.11 - - [20/Aug/2019 14:14:59] "POST / HTTP/1.1" 200 -
+2019-08-20 14:15:02,437:INFO:131.243.229.11 - - [20/Aug/2019 14:15:02] "POST / HTTP/1.1" 200 -
+2019-08-20 14:15:03,188:INFO:131.243.229.11 - - [20/Aug/2019 14:15:03] "POST / HTTP/1.1" 200 -
+2019-08-20 14:15:04,508:INFO:131.243.229.11 - - [20/Aug/2019 14:15:04] "POST / HTTP/1.1" 200 -
+2019-08-20 14:15:05,746:INFO:131.243.229.11 - - [20/Aug/2019 14:15:05] "POST / HTTP/1.1" 200 -
+2019-08-20 14:15:09,738:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 14:15:13,858:INFO:127.0.0.1 - - [20/Aug/2019 14:15:13] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-20 14:15:48,268:INFO:127.0.0.1 - - [20/Aug/2019 14:15:48] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-20 14:21:27,966:INFO:131.243.229.11 - - [20/Aug/2019 14:21:27] "POST / HTTP/1.1" 200 -
+2019-08-20 14:21:28,737:INFO:131.243.229.11 - - [20/Aug/2019 14:21:28] "POST / HTTP/1.1" 200 -
+2019-08-20 14:21:29,937:INFO:131.243.229.11 - - [20/Aug/2019 14:21:29] "POST / HTTP/1.1" 200 -
+2019-08-20 14:21:30,861:INFO:131.243.229.11 - - [20/Aug/2019 14:21:30] "POST / HTTP/1.1" 200 -
+2019-08-20 14:21:31,842:INFO:131.243.229.11 - - [20/Aug/2019 14:21:31] "POST / HTTP/1.1" 200 -
+2019-08-20 14:21:34,782:INFO:131.243.229.11 - - [20/Aug/2019 14:21:34] "POST / HTTP/1.1" 200 -
+2019-08-20 14:21:35,565:INFO:131.243.229.11 - - [20/Aug/2019 14:21:35] "POST / HTTP/1.1" 200 -
+2019-08-20 14:21:36,483:INFO:131.243.229.11 - - [20/Aug/2019 14:21:36] "POST / HTTP/1.1" 200 -
+2019-08-20 14:21:37,634:INFO:131.243.229.11 - - [20/Aug/2019 14:21:37] "POST / HTTP/1.1" 200 -
+2019-08-20 14:21:38,769:INFO:131.243.229.11 - - [20/Aug/2019 14:21:38] "POST / HTTP/1.1" 200 -
+2019-08-20 14:21:39,750:INFO:131.243.229.11 - - [20/Aug/2019 14:21:39] "POST / HTTP/1.1" 200 -
+2019-08-20 14:21:42,720:INFO:131.243.229.11 - - [20/Aug/2019 14:21:42] "POST / HTTP/1.1" 200 -
+2019-08-20 14:21:43,529:INFO:131.243.229.11 - - [20/Aug/2019 14:21:43] "POST / HTTP/1.1" 200 -
+2019-08-20 14:21:44,439:INFO:131.243.229.11 - - [20/Aug/2019 14:21:44] "POST / HTTP/1.1" 200 -
+2019-08-20 14:21:45,592:INFO:131.243.229.11 - - [20/Aug/2019 14:21:45] "POST / HTTP/1.1" 200 -
+2019-08-20 14:21:49,802:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 14:21:54,267:INFO:127.0.0.1 - - [20/Aug/2019 14:21:54] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-20 14:22:36,054:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 14:22:40,720:INFO:127.0.0.1 - - [20/Aug/2019 14:22:40] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-20 14:23:19,430:INFO:127.0.0.1 - - [20/Aug/2019 14:23:19] "GET /get_data?address=37&point=0&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-20 14:24:32,538:INFO:131.243.229.11 - - [20/Aug/2019 14:24:32] "POST / HTTP/1.1" 200 -
+2019-08-20 14:24:34,205:INFO:131.243.229.11 - - [20/Aug/2019 14:24:34] "POST / HTTP/1.1" 200 -
+2019-08-20 14:24:35,413:INFO:131.243.229.11 - - [20/Aug/2019 14:24:35] "POST / HTTP/1.1" 200 -
+2019-08-20 14:24:39,887:INFO:131.243.229.11 - - [20/Aug/2019 14:24:39] "POST / HTTP/1.1" 200 -
+2019-08-20 14:24:41,236:INFO:131.243.229.11 - - [20/Aug/2019 14:24:41] "POST / HTTP/1.1" 200 -
+2019-08-20 14:24:43,267:INFO:131.243.229.11 - - [20/Aug/2019 14:24:43] "POST / HTTP/1.1" 200 -
+2019-08-20 14:24:46,554:INFO:131.243.229.11 - - [20/Aug/2019 14:24:46] "POST / HTTP/1.1" 200 -
+2019-08-20 14:24:47,683:INFO:131.243.229.11 - - [20/Aug/2019 14:24:47] "POST / HTTP/1.1" 200 -
+2019-08-20 14:24:48,869:INFO:131.243.229.11 - - [20/Aug/2019 14:24:48] "POST / HTTP/1.1" 200 -
+2019-08-20 14:24:50,933:INFO:131.243.229.11 - - [20/Aug/2019 14:24:50] "POST / HTTP/1.1" 200 -
+2019-08-20 14:24:52,363:INFO:131.243.229.11 - - [20/Aug/2019 14:24:52] "POST / HTTP/1.1" 200 -
+2019-08-20 14:24:56,247:INFO:131.243.229.11 - - [20/Aug/2019 14:24:56] "POST / HTTP/1.1" 200 -
+2019-08-20 14:25:37,187:INFO:127.0.0.1 - - [20/Aug/2019 14:25:37] "GET /get_data?address=33&point=5&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-20 14:28:22,127:INFO:127.0.0.1 - - [20/Aug/2019 14:28:22] "GET /get_data?address=33&point=5&start=2019-07-31_23:18:01&end=2019-08-20%2021:22:53 HTTP/1.1" 200 -
+2019-08-20 14:28:55,434:INFO:127.0.0.1 - - [20/Aug/2019 14:28:55] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:28:55,438:INFO:127.0.0.1 - - [20/Aug/2019 14:28:55] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:28:55,456:INFO:127.0.0.1 - - [20/Aug/2019 14:28:55] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:28:55,462:INFO:127.0.0.1 - - [20/Aug/2019 14:28:55] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:28:55,467:INFO:127.0.0.1 - - [20/Aug/2019 14:28:55] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:28:55,473:INFO:131.243.229.12 - - [20/Aug/2019 14:28:55] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:28:55,486:INFO:127.0.0.1 - - [20/Aug/2019 14:28:55] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:28:55,498:INFO:127.0.0.1 - - [20/Aug/2019 14:28:55] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:28:55,506:INFO:127.0.0.1 - - [20/Aug/2019 14:28:55] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:28:58,741:INFO:127.0.0.1 - - [20/Aug/2019 14:28:58] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:28:58,744:INFO:127.0.0.1 - - [20/Aug/2019 14:28:58] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:28:58,746:INFO:127.0.0.1 - - [20/Aug/2019 14:28:58] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:28:58,748:INFO:127.0.0.1 - - [20/Aug/2019 14:28:58] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:28:58,750:INFO:127.0.0.1 - - [20/Aug/2019 14:28:58] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:28:58,751:INFO:127.0.0.1 - - [20/Aug/2019 14:28:58] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:28:58,752:INFO:127.0.0.1 - - [20/Aug/2019 14:28:58] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:28:58,754:INFO:127.0.0.1 - - [20/Aug/2019 14:28:58] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:28:59,216:INFO:131.243.229.12 - - [20/Aug/2019 14:28:59] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:29:06,748:INFO:127.0.0.1 - - [20/Aug/2019 14:29:06] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:29:06,751:INFO:127.0.0.1 - - [20/Aug/2019 14:29:06] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:29:06,753:INFO:127.0.0.1 - - [20/Aug/2019 14:29:06] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:29:06,756:INFO:127.0.0.1 - - [20/Aug/2019 14:29:06] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:29:06,757:INFO:127.0.0.1 - - [20/Aug/2019 14:29:06] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:29:06,759:INFO:127.0.0.1 - - [20/Aug/2019 14:29:06] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:29:06,760:INFO:127.0.0.1 - - [20/Aug/2019 14:29:06] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:29:06,761:INFO:127.0.0.1 - - [20/Aug/2019 14:29:06] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:29:10,446:INFO:127.0.0.1 - - [20/Aug/2019 14:29:10] "GET /get_data?address=33&point=5&start=2019-07-31_23:18:01&end=2019-08-20_21:22:53 HTTP/1.1" 200 -
+2019-08-20 14:29:16,228:INFO:131.243.229.12 - - [20/Aug/2019 14:29:16] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:29:16,937:INFO:127.0.0.1 - - [20/Aug/2019 14:29:16] "GET /get_data?address=33&point=5&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-20 14:29:24,647:INFO:131.243.229.11 - - [20/Aug/2019 14:29:24] "POST / HTTP/1.1" 200 -
+2019-08-20 14:29:25,628:INFO:131.243.229.11 - - [20/Aug/2019 14:29:25] "POST / HTTP/1.1" 200 -
+2019-08-20 14:29:27,060:INFO:131.243.229.11 - - [20/Aug/2019 14:29:27] "POST / HTTP/1.1" 200 -
+2019-08-20 14:29:30,336:INFO:131.243.229.11 - - [20/Aug/2019 14:29:30] "POST / HTTP/1.1" 200 -
+2019-08-20 14:29:31,327:INFO:131.243.229.11 - - [20/Aug/2019 14:29:31] "POST / HTTP/1.1" 200 -
+2019-08-20 14:29:32,286:INFO:131.243.229.11 - - [20/Aug/2019 14:29:32] "POST / HTTP/1.1" 200 -
+2019-08-20 14:29:33,698:INFO:131.243.229.11 - - [20/Aug/2019 14:29:33] "POST / HTTP/1.1" 200 -
+2019-08-20 14:29:36,729:INFO:131.243.229.11 - - [20/Aug/2019 14:29:36] "POST / HTTP/1.1" 200 -
+2019-08-20 14:29:37,567:INFO:131.243.229.11 - - [20/Aug/2019 14:29:37] "POST / HTTP/1.1" 200 -
+2019-08-20 14:29:38,570:INFO:131.243.229.11 - - [20/Aug/2019 14:29:38] "POST / HTTP/1.1" 200 -
+2019-08-20 14:29:39,072:INFO:127.0.0.1 - - [20/Aug/2019 14:29:39] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:29:39,711:INFO:131.243.229.11 - - [20/Aug/2019 14:29:39] "POST / HTTP/1.1" 200 -
+2019-08-20 14:29:43,052:INFO:131.243.229.11 - - [20/Aug/2019 14:29:43] "POST / HTTP/1.1" 200 -
+2019-08-20 14:29:44,042:INFO:131.243.229.11 - - [20/Aug/2019 14:29:44] "POST / HTTP/1.1" 200 -
+2019-08-20 14:29:45,011:INFO:131.243.229.11 - - [20/Aug/2019 14:29:45] "POST / HTTP/1.1" 200 -
+2019-08-20 14:29:45,969:INFO:131.243.229.11 - - [20/Aug/2019 14:29:45] "POST / HTTP/1.1" 200 -
+2019-08-20 14:29:47,072:INFO:127.0.0.1 - - [20/Aug/2019 14:29:47] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:29:49,319:INFO:131.243.229.11 - - [20/Aug/2019 14:29:49] "POST / HTTP/1.1" 200 -
+2019-08-20 14:29:50,040:INFO:131.243.229.11 - - [20/Aug/2019 14:29:50] "POST / HTTP/1.1" 200 -
+2019-08-20 14:29:50,996:INFO:131.243.229.11 - - [20/Aug/2019 14:29:50] "POST / HTTP/1.1" 200 -
+2019-08-20 14:29:52,194:INFO:131.243.229.11 - - [20/Aug/2019 14:29:52] "POST / HTTP/1.1" 200 -
+2019-08-20 14:29:55,782:INFO:131.243.229.11 - - [20/Aug/2019 14:29:55] "POST / HTTP/1.1" 200 -
+2019-08-20 14:30:18,239:INFO:131.243.229.12 - - [20/Aug/2019 14:30:18] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:30:25,700:INFO:127.0.0.1 - - [20/Aug/2019 14:30:25] "GET /get_data?address=33&point=5&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-20 14:30:45,684:INFO:127.0.0.1 - - [20/Aug/2019 14:30:45] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:31:39,074:INFO:127.0.0.1 - - [20/Aug/2019 14:31:39] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:31:47,678:INFO:127.0.0.1 - - [20/Aug/2019 14:31:47] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:33:39,123:INFO:127.0.0.1 - - [20/Aug/2019 14:33:39] "GET /get_data?address=33&point=5&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-20 14:34:05,377:INFO:127.0.0.1 - - [20/Aug/2019 14:34:05] "GET /get_data?address=33&point=5&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-20 14:34:49,369:INFO:131.243.229.11 - - [20/Aug/2019 14:34:49] "POST / HTTP/1.1" 200 -
+2019-08-20 14:34:50,312:INFO:131.243.229.11 - - [20/Aug/2019 14:34:50] "POST / HTTP/1.1" 200 -
+2019-08-20 14:34:51,854:INFO:131.243.229.11 - - [20/Aug/2019 14:34:51] "POST / HTTP/1.1" 200 -
+2019-08-20 14:34:55,396:INFO:131.243.229.11 - - [20/Aug/2019 14:34:55] "POST / HTTP/1.1" 200 -
+2019-08-20 14:34:56,345:INFO:131.243.229.11 - - [20/Aug/2019 14:34:56] "POST / HTTP/1.1" 200 -
+2019-08-20 14:34:57,349:INFO:131.243.229.11 - - [20/Aug/2019 14:34:57] "POST / HTTP/1.1" 200 -
+2019-08-20 14:34:58,865:INFO:131.243.229.11 - - [20/Aug/2019 14:34:58] "POST / HTTP/1.1" 200 -
+2019-08-20 14:35:02,125:INFO:131.243.229.11 - - [20/Aug/2019 14:35:02] "POST / HTTP/1.1" 200 -
+2019-08-20 14:35:03,034:INFO:131.243.229.11 - - [20/Aug/2019 14:35:03] "POST / HTTP/1.1" 200 -
+2019-08-20 14:35:04,318:INFO:131.243.229.11 - - [20/Aug/2019 14:35:04] "POST / HTTP/1.1" 200 -
+2019-08-20 14:35:05,363:INFO:131.243.229.11 - - [20/Aug/2019 14:35:05] "POST / HTTP/1.1" 200 -
+2019-08-20 14:35:08,875:INFO:131.243.229.11 - - [20/Aug/2019 14:35:08] "POST / HTTP/1.1" 200 -
+2019-08-20 14:35:09,752:INFO:131.243.229.11 - - [20/Aug/2019 14:35:09] "POST / HTTP/1.1" 200 -
+2019-08-20 14:35:10,853:INFO:131.243.229.11 - - [20/Aug/2019 14:35:10] "POST / HTTP/1.1" 200 -
+2019-08-20 14:35:12,115:INFO:131.243.229.11 - - [20/Aug/2019 14:35:12] "POST / HTTP/1.1" 200 -
+2019-08-20 14:35:15,645:INFO:131.243.229.11 - - [20/Aug/2019 14:35:15] "POST / HTTP/1.1" 200 -
+2019-08-20 14:35:16,455:INFO:131.243.229.11 - - [20/Aug/2019 14:35:16] "POST / HTTP/1.1" 200 -
+2019-08-20 14:35:17,469:INFO:131.243.229.11 - - [20/Aug/2019 14:35:17] "POST / HTTP/1.1" 200 -
+2019-08-20 14:35:18,522:INFO:131.243.229.11 - - [20/Aug/2019 14:35:18] "POST / HTTP/1.1" 200 -
+2019-08-20 14:35:20,178:INFO:131.243.229.11 - - [20/Aug/2019 14:35:20] "POST / HTTP/1.1" 200 -
+2019-08-20 14:35:39,304:INFO:127.0.0.1 - - [20/Aug/2019 14:35:39] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:35:59,583:INFO:127.0.0.1 - - [20/Aug/2019 14:35:59] "GET /get_data?address=33&point=5&start=2019-07-31_23:18:01&end=2019-08-20_21:22:53 HTTP/1.1" 200 -
+2019-08-20 14:36:06,534:INFO:127.0.0.1 - - [20/Aug/2019 14:36:06] "GET /get_data?address=33&point=5&start=2019-07-31_23:18:01&end=2019-08-20_21:22:50 HTTP/1.1" 200 -
+2019-08-20 14:36:38,051:INFO:127.0.0.1 - - [20/Aug/2019 14:36:38] "GET /get_data?address=33&point=5&start=2019-07-31_23:18:01&end=2019-08-20_21:22:50 HTTP/1.1" 200 -
+2019-08-20 14:36:48,822:INFO:127.0.0.1 - - [20/Aug/2019 14:36:48] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:36:56,458:INFO:127.0.0.1 - - [20/Aug/2019 14:36:56] "GET /get_data?address=33&point=5&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-20 14:37:42,195:INFO:127.0.0.1 - - [20/Aug/2019 14:37:42] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:39:58,939:INFO:127.0.0.1 - - [20/Aug/2019 14:39:58] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:40:20,249:INFO:131.243.229.12 - - [20/Aug/2019 14:40:20] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:40:56,571:INFO:127.0.0.1 - - [20/Aug/2019 14:40:56] "GET /get_data?address=33&point=5&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-20 14:41:40,167:INFO:131.243.229.11 - - [20/Aug/2019 14:41:40] "POST / HTTP/1.1" 200 -
+2019-08-20 14:41:41,472:INFO:131.243.229.11 - - [20/Aug/2019 14:41:41] "POST / HTTP/1.1" 200 -
+2019-08-20 14:41:44,647:INFO:131.243.229.11 - - [20/Aug/2019 14:41:44] "POST / HTTP/1.1" 200 -
+2019-08-20 14:41:45,633:INFO:131.243.229.11 - - [20/Aug/2019 14:41:45] "POST / HTTP/1.1" 200 -
+2019-08-20 14:41:46,604:INFO:131.243.229.11 - - [20/Aug/2019 14:41:46] "POST / HTTP/1.1" 200 -
+2019-08-20 14:41:47,767:INFO:131.243.229.11 - - [20/Aug/2019 14:41:47] "POST / HTTP/1.1" 200 -
+2019-08-20 14:41:51,075:INFO:131.243.229.11 - - [20/Aug/2019 14:41:51] "POST / HTTP/1.1" 200 -
+2019-08-20 14:41:52,113:INFO:131.243.229.11 - - [20/Aug/2019 14:41:52] "POST / HTTP/1.1" 200 -
+2019-08-20 14:41:53,078:INFO:131.243.229.11 - - [20/Aug/2019 14:41:53] "POST / HTTP/1.1" 200 -
+2019-08-20 14:41:56,346:INFO:131.243.229.11 - - [20/Aug/2019 14:41:56] "POST / HTTP/1.1" 200 -
+2019-08-20 14:41:57,107:INFO:131.243.229.11 - - [20/Aug/2019 14:41:57] "POST / HTTP/1.1" 200 -
+2019-08-20 14:41:58,141:INFO:131.243.229.11 - - [20/Aug/2019 14:41:58] "POST / HTTP/1.1" 200 -
+2019-08-20 14:41:59,212:INFO:131.243.229.11 - - [20/Aug/2019 14:41:59] "POST / HTTP/1.1" 200 -
+2019-08-20 14:42:00,630:INFO:131.243.229.11 - - [20/Aug/2019 14:42:00] "POST / HTTP/1.1" 200 -
+2019-08-20 14:44:42,802:INFO:131.243.229.11 - - [20/Aug/2019 14:44:42] "POST / HTTP/1.1" 200 -
+2019-08-20 14:44:44,184:INFO:131.243.229.11 - - [20/Aug/2019 14:44:44] "POST / HTTP/1.1" 200 -
+2019-08-20 14:44:47,069:INFO:131.243.229.11 - - [20/Aug/2019 14:44:47] "POST / HTTP/1.1" 200 -
+2019-08-20 14:44:48,437:INFO:131.243.229.11 - - [20/Aug/2019 14:44:48] "POST / HTTP/1.1" 200 -
+2019-08-20 14:44:49,666:INFO:131.243.229.11 - - [20/Aug/2019 14:44:49] "POST / HTTP/1.1" 200 -
+2019-08-20 14:44:52,658:INFO:131.243.229.11 - - [20/Aug/2019 14:44:52] "POST / HTTP/1.1" 200 -
+2019-08-20 14:44:53,719:INFO:131.243.229.11 - - [20/Aug/2019 14:44:53] "POST / HTTP/1.1" 200 -
+2019-08-20 14:44:59,364:INFO:127.0.0.1 - - [20/Aug/2019 14:44:59] "GET /get_data?address=33&point=5&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-20 14:45:51,520:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 14:45:51,758:ERROR:Exception on /get_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\thoma\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "webserver.py", line 162, in get_data
+    end = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')
+NameError: name 'timezone' is not defined
+2019-08-20 14:45:51,760:INFO:127.0.0.1 - - [20/Aug/2019 14:45:51] "GET /get_data?address=33&point=5&start=2019-07-31_23:18:01&end=now HTTP/1.1" 500 -
+2019-08-20 14:46:30,846:INFO: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2019-08-20 14:46:33,702:INFO:127.0.0.1 - - [20/Aug/2019 14:46:33] "GET /get_data?address=33&point=5&start=2019-07-31_23:18:01&end=now HTTP/1.1" 200 -
+2019-08-20 14:46:42,263:INFO:131.243.229.12 - - [20/Aug/2019 14:46:42] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:46:59,271:INFO:131.243.229.12 - - [20/Aug/2019 14:46:59] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:47:08,488:INFO:127.0.0.1 - - [20/Aug/2019 14:47:08] "GET /wpad.dat HTTP/1.1" 404 -
+2019-08-20 14:47:16,495:INFO:127.0.0.1 - - [20/Aug/2019 14:47:16] "GET /wpad.dat HTTP/1.1" 404 -
