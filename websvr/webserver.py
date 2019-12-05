@@ -191,6 +191,8 @@ def get_data():
         #Time to string conversions
         if counter_date.month < 10:
             month = "0" + str(counter_date.month)
+        else:
+            month = str(counter_date.month)
 
         #Reading csv files by month
         if os.path.isfile('data/acquisuite_m' + address + "_p" + point + "_" + str(counter_date.year) + "_" + month + '.csv'):
