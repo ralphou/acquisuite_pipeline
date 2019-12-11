@@ -187,7 +187,7 @@ def get_data():
     end_month = int(end.strftime("%m"))
     
     #Datetime iteration until endtime
-    while (counter_year < end_year or counter_month <= end_month):
+    while (counter_date <= end):
         month = str(counter_date.month)
         #Time to string conversions
         if counter_date.month < 10:
